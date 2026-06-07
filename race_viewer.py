@@ -43,7 +43,7 @@ def get_qualifying_files():
     )
 
 
-st.image("dfr_logo.png", width=250)
+st.image("viewer.png", width=1920)
 st.title("DFR Race Viewer")
 
 race_tab, qualifying_tab = st.tabs(["🏁 Race Results", "⏱ Qualifying"])
@@ -59,7 +59,7 @@ with race_tab:
     if not result_files:
         st.warning("No race result exports found yet.")
     else:
-        selected_results_file = st.sidebar.selectbox(
+        selected_results_file = st.selectbox(
             "Select Race",
             result_files,
             format_func=lambda path: f"Race - {format_export_name(path)}"
