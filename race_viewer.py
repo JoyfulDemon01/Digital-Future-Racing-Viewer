@@ -4,9 +4,9 @@ from datetime import datetime
 import pandas as pd
 import streamlit as st
 
-
+QUALIFYING_EXPORT_FOLDER = Path("qualifying_exports")
 EXPORT_FOLDER = Path("race_exports")
-
+race_tab, qualifying_tab = st.tabs(["🏁 Race Results", "⏱ Qualifying"])
 
 st.set_page_config(
     page_title="DFR Race Viewer",
@@ -19,43 +19,86 @@ st.image(
 )
 st.title("Race Results Viewer")
 
+with race_tab:
 
-def get_result_files():
-    return sorted(
-        EXPORT_FOLDER.glob("race_results_*.csv"),
-        reverse=True
+    def get_result_files():
+        return sorted(
+            EXPORT_FOLDER.glob("race_results_*.csv"),
+            reverse=True
+        )
+
+    result_files = get_result_files()
+
+    if not result_files:
+        st.warning("No race result exports found yet.")
+        st.stop()
+
+    def format_race_name(path):
+        raw = path.stem.replace("race_results_", "")
+
+        try:
+            date = datetime.strptime(raw, "%Y-%m-%d_%H-%M-%S")
+            return date.strftime("Race - %d %B %Y, %H:%M")
+        except ValueError:
+            return path.name
+
+    selected_results_file = st.sidebar.selectbox(
+        "Select Race",
+        result_files,
+        format_func=format_race_name
     )
 
 
-result_files = get_result_files()
-
-if not result_files:
-    st.warning("No race result exports found yet.")
-    st.stop()
-
-def format_race_name(path):
-    raw = path.stem.replace("race_results_", "")
-
-    try:
-        date = datetime.strptime(raw, "%Y-%m-%d_%H-%M-%S")
-        return date.strftime("Race - %d %B %Y, %H:%M")
-    except ValueError:
-        return path.name
-
-selected_results_file = st.sidebar.selectbox(
-    "Select Race",
-    result_files,
-    format_func=format_race_name
-)
+    events_file = EXPORT_FOLDER / selected_results_file.name.replace(
+        "race_results_",
+        "race_events_"
+    )
 
 
-events_file = EXPORT_FOLDER / selected_results_file.name.replace(
-    "race_results_",
-    "race_events_"
-)
+    results = pd.read_csv(selected_results_file)
 
+def get_qualifying_files():
+    return sorted(
+        QUALIFYING_EXPORT_FOLDER.glob("qualifying_results_*.csv"),
+        reverse=True
+    )
 
-results = pd.read_csv(selected_results_file)
+with qualifying_tab:
+    st.subheader("⏱ Qualifying Results")
+
+    qualifying_files = get_qualifying_files()
+
+    if not qualifying_files:
+        st.warning("No qualifying exports found yet.")
+    else:
+        selected_qualifying_file = st.selectbox(
+            "Select Qualifying Session",
+            qualifying_files,
+            format_func=format_race_name
+        )
+
+        qualifying_results = pd.read_csv(selected_qualifying_file)
+
+        st.caption(f"Loaded: `{selected_qualifying_file.name}`")
+
+        pole_sitter = qualifying_results.iloc[0]
+
+        col1, col2, col3 = st.columns(3)
+
+        with col1:
+            st.metric("Pole Sitter", pole_sitter["Driver"])
+
+        with col2:
+            st.metric("Team", pole_sitter["Team"])
+
+        with col3:
+            st.metric("Pole Time", pole_sitter["Fastest Lap"])
+
+        st.dataframe(
+            qualifying_results,
+            use_container_width=True,
+            hide_index=True
+        )
 
 # =========================
 # RESULTS SPOILER PROTECTION
