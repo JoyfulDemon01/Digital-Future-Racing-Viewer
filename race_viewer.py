@@ -91,6 +91,21 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+<style>
+
+/* Remove all green backgrounds from slider labels */
+.stSlider span,
+.stSlider p,
+.stSlider div[data-testid="stThumbValue"] {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+</style>
+""", unsafe_allow_html=True)
+
 # =========================
 # HELPERS
 # =========================
