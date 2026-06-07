@@ -184,19 +184,59 @@ st.dataframe(
 
 
 # =========================
-# RACE EVENTS
+# RACE EVENTS - LAP BY LAP
 # =========================
 
 if events_file.exists():
     events = pd.read_csv(events_file)
 
     st.subheader("Race Events")
-    st.caption(f"Loaded: `{events_file.name}`")
 
-    st.dataframe(
-        events,
-        use_container_width=True,
-        hide_index=True
-    )
+    max_lap = int(events["Lap"].max()) if not events.empty else 1
+
+    if "current_lap" not in st.session_state:
+        st.session_state.current_lap = 1
+
+    col1, col2, col3, col4 = st.columns([1, 1, 2, 1])
+
+    with col1:
+        if st.button("⬅ Previous Lap"):
+            st.session_state.current_lap = max(
+                1,
+                st.session_state.current_lap - 1
+            )
+
+    with col2:
+        if st.button("Next Lap ➡"):
+            st.session_state.current_lap = min(
+                max_lap,
+                st.session_state.current_lap + 1
+            )
+
+    with col3:
+        selected_lap = st.slider(
+            "Lap",
+            min_value=1,
+            max_value=max_lap,
+            value=st.session_state.current_lap
+        )
+        st.session_state.current_lap = selected_lap
+
+    with col4:
+        if st.button("Final Lap"):
+            st.session_state.current_lap = max_lap
+
+    current_lap = st.session_state.current_lap
+
+    st.markdown(f"### Lap {current_lap}")
+
+    lap_events = events[events["Lap"] == current_lap]
+
+    if lap_events.empty:
+        st.info("No notable events on this lap.")
+    else:
+        for _, event in lap_events.iterrows():
+            st.write(f"• {event['Event']}")
+
 else:
     st.info("No race events file found for this race.")
