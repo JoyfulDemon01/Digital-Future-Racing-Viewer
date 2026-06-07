@@ -422,7 +422,7 @@ with race_tab:
                         lambda gap: (
                             "-"
                             if pd.isna(gap)
-                            else "WINNER"
+                            else "-"
                             if float(gap) == 0
                             else f"+{float(gap):.3f}"
                         )
