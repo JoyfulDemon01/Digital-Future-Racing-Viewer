@@ -63,16 +63,70 @@ def format_position_diff(diff):
 
     return "—"
 
+TEAM_STYLES = {
+    "Trike Motorsports": {
+        "bg": "#4a4a4a",
+        "text": "#f6c000",
+    },
 
-def highlight_villiuride_driver_cell(row):
+    "Villiuride Racing": {
+        "bg": "#9b2236",
+        "text": "#000000",
+    },
+
+    "Orange Wheel Racing": {
+        "bg": "#ff7f0e",
+        "text": "#000000",
+    },
+
+    "LFL Engineering": {
+        "bg": "#4a4a4a",
+        "text": "#00ffff",
+    },
+
+    "Racing Life": {
+        "bg": "#ff1400",
+        "text": "#000000",
+    },
+
+    "Mercedes AMG Motorsport": {
+        "bg": "#c0c0c0",
+        "text": "#000000",
+    },
+
+    "Dacia Racing Team": {
+        "bg": "#4a4a4a",
+        "text": "#ffe600",
+    },
+
+    "Pulang Kabayo Racing": {
+        "bg": "#d90000",
+        "text": "#000000",
+    },
+
+    "Scuderia Ivanov Racing": {
+        "bg": "#ff6600",
+        "text": "#000000",
+    },
+
+    "OHSN Racing": {
+        "bg": "#4a4a4a",
+        "text": "#4f83ff",
+    },
+}
+
+def highlight_driver_cell(row):
     styles = [""] * len(row)
 
-    if row.get("Team") == "Villiuride Racing" and "Driver" in row.index:
+    team_style = TEAM_STYLES.get(row.get("Team"))
+
+    if team_style and "Driver" in row.index:
         driver_col_index = row.index.get_loc("Driver")
+
         styles[driver_col_index] = (
-            "background-color: #9b2236; "
-            "color: #000000; "
-            "font-weight: bold;"
+            f"background-color: {team_style['bg']}; "
+            f"color: {team_style['text']}; "
+            f"font-weight: bold;"
         )
 
     return styles
@@ -242,7 +296,7 @@ with race_tab:
                     styled_standings = (
                         current_standings[available_columns]
                         .style
-                        .apply(highlight_villiuride_driver_cell, axis=1)
+                        .apply(highlight_driver_cell, axis=1)
                     )
 
                     st.dataframe(
@@ -400,7 +454,7 @@ with race_tab:
             )
 
             styled_results = display_results.style.apply(
-                highlight_villiuride_driver_cell,
+                highlight_driver_cell,
                 axis=1
             )
 
@@ -447,7 +501,7 @@ with qualifying_tab:
             st.metric("Pole Time", pole_sitter["Fastest Lap"])
 
         styled_qualifying = qualifying_results.style.apply(
-            highlight_villiuride_driver_cell,
+            highlight_driver_cell,
             axis=1
         )
 
