@@ -15,10 +15,6 @@ st.set_page_config(
 )
 
 
-# =========================
-# CSS
-# =========================
-
 st.markdown("""
 <style>
 
@@ -50,10 +46,6 @@ div[data-baseweb="tab-highlight"] {
 </style>
 """, unsafe_allow_html=True)
 
-
-# =========================
-# HELPERS
-# =========================
 
 def format_export_name(path):
     raw = (
@@ -108,60 +100,55 @@ TEAM_STYLES = {
 }
 
 
-def style_row(row):
+TYRE_TEXT_COLORS = {
+    "soft": "#ff3333",
+    "medium": "#ffd700",
+    "hard": "#ffffff",
+}
+
+
+def style_row(row, fastest_lap_time=None):
     styles = [""] * len(row)
 
-    # Team colours on Driver column
     team_style = TEAM_STYLES.get(row.get("Team"))
 
     if team_style and "Driver" in row.index:
         driver_col_index = row.index.get_loc("Driver")
-
         styles[driver_col_index] = (
             f"background-color: {team_style['bg']}; "
             f"color: {team_style['text']}; "
             f"font-weight: bold;"
         )
 
-    # Tyre colours
     if "Tyre" in row.index:
         tyre_col_index = row.index.get_loc("Tyre")
-
         tyre = str(row["Tyre"]).lower()
 
-        if tyre == "soft":
+        if tyre in TYRE_TEXT_COLORS:
             styles[tyre_col_index] = (
-                "color: #ff3333; "
-                "font-weight: bold;"
+                f"color: {TYRE_TEXT_COLORS[tyre]}; "
+                f"font-weight: bold;"
             )
 
-        elif tyre == "medium":
-            styles[tyre_col_index] = (
-                "color: #ffd700; "
-                "font-weight: bold;"
-            )
-
-        elif tyre == "hard":
-            styles[tyre_col_index] = (
-                "color: #ffffff; "
-                "font-weight: bold;"
-            )
+    if (
+        fastest_lap_time is not None
+        and "Fastest Lap" in row.index
+        and pd.notna(row["Fastest Lap"])
+        and row["Fastest Lap"] == fastest_lap_time
+    ):
+        fastest_lap_col_index = row.index.get_loc("Fastest Lap")
+        styles[fastest_lap_col_index] = (
+            "color: #b266ff; "
+            "font-weight: bold;"
+        )
 
     return styles
 
-
-# =========================
-# HEADER
-# =========================
 
 st.image("viewer.png", width=1920)
 
 race_tab, qualifying_tab = st.tabs(["🏁 Race Results", "⏱ Qualifying"])
 
-
-# =========================
-# RACE TAB
-# =========================
 
 with race_tab:
     result_files = get_result_files()
@@ -188,10 +175,6 @@ with race_tab:
         results = pd.read_csv(selected_results_file)
 
         st.caption(f"Loaded: `{selected_results_file.name}`")
-
-        # =========================
-        # RACE REPLAY
-        # =========================
 
         st.subheader("Race Replay")
 
@@ -295,7 +278,8 @@ with race_tab:
                         "Team",
                         "Tyre",
                         "Lap Time",
-                        "Fastest Lap",
+                        "Gap Ahead",
+                        "Gap to Leader",
                     ]
 
                     available_columns = [
@@ -315,10 +299,6 @@ with race_tab:
                         hide_index=True
                     )
 
-        # =========================
-        # RESULTS SPOILER PROTECTION
-        # =========================
-
         if "spoilers_revealed" not in st.session_state:
             st.session_state.spoilers_revealed = False
 
@@ -333,10 +313,6 @@ with race_tab:
             if st.button("🏁 Reveal Final Results"):
                 st.session_state.spoilers_revealed = True
                 st.rerun()
-
-        # =========================
-        # FINAL RESULTS
-        # =========================
 
         if st.session_state.spoilers_revealed:
             dnfs = results[~results["Status"].isin(["Running", "Finished"])]
@@ -359,17 +335,19 @@ with race_tab:
                 ascending=True
             ).iloc[0]
 
+            fastest_lap_time = (
+                results["Fastest Lap"]
+                .dropna()
+                .min()
+            )
+
             fastest_lap_row = results[
-                results["Fastest Lap"].notna()
-            ].sort_values("Fastest Lap").iloc[0]
+                results["Fastest Lap"] == fastest_lap_time
+            ].iloc[0]
 
             podium = results.head(3)
 
             st.divider()
-
-            # =========================
-            # SUMMARY CARDS
-            # =========================
 
             col1, col2, col3 = st.columns(3)
 
@@ -404,10 +382,6 @@ with race_tab:
                     results.sort_values("Starting Position").iloc[0]["Driver"]
                 )
 
-            # =========================
-            # PODIUM
-            # =========================
-
             st.subheader("Podium")
 
             podium_cols = st.columns(3)
@@ -438,32 +412,12 @@ with race_tab:
                         unsafe_allow_html=True
                     )
 
-            # =========================
-            # FULL RESULTS TABLE
-            # =========================
-
             st.subheader("Full Race Results")
 
             display_results = results.copy()
 
-            fastest_lap_time = (
-                display_results["Fastest Lap"]
-                .dropna()
-                .min()
-            )
-
-            display_results["Fastest Lap"] = (
-                display_results["Fastest Lap"]
-                .apply(
-                    lambda lap:
-                    f"{lap} ★"
-                    if pd.notna(lap) and lap == fastest_lap_time
-                    else lap
-                )
-            )
-
             styled_results = display_results.style.apply(
-                style_row,
+                lambda row: style_row(row, fastest_lap_time=fastest_lap_time),
                 axis=1
             )
 
@@ -473,10 +427,6 @@ with race_tab:
                 hide_index=True
             )
 
-
-# =========================
-# QUALIFYING TAB
-# =========================
 
 with qualifying_tab:
     st.subheader("⏱ Qualifying Results")
