@@ -8,13 +8,6 @@ import streamlit as st
 QUALIFYING_EXPORT_FOLDER = Path("qualifying_exports")
 EXPORT_FOLDER = Path("race_exports")
 
-
-st.set_page_config(
-    page_title="DFR Race Viewer",
-    layout="wide",
-)
-
-
 def format_export_name(path):
     raw = (
         path.stem
@@ -60,8 +53,7 @@ def format_position_diff(diff):
     return "—"
 
 
-st.image("dfr_logo.png", width=250)
-st.title("DFR Race Viewer")
+st.image("viewer.png", width=1920)
 
 race_tab, qualifying_tab = st.tabs(["🏁 Race Results", "⏱ Qualifying"])
 
@@ -100,7 +92,7 @@ with race_tab:
         # RACE EVENTS + LAP STANDINGS
         # =========================
 
-        st.subheader("Race Replay")
+        st.subheader("🏁 Race Results")
 
         if events_file.exists():
             events = pd.read_csv(events_file)
