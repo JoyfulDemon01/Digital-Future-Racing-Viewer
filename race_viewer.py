@@ -1,5 +1,6 @@
 from pathlib import Path
 from PIL import Image
+from datetime import datetime
 import pandas as pd
 import streamlit as st
 
@@ -32,12 +33,21 @@ if not result_files:
     st.warning("No race result exports found yet.")
     st.stop()
 
+def format_race_name(path):
+    raw = path.stem.replace("race_results_", "")
+
+    try:
+        date = datetime.strptime(raw, "%Y-%m-%d_%H-%M-%S")
+        return date.strftime("Race - %d %B %Y, %H:%M")
+    except ValueError:
+        return path.name
 
 selected_results_file = st.sidebar.selectbox(
     "Select Race",
     result_files,
-    format_func=lambda path: path.name
+    format_func=format_race_name
 )
+
 
 events_file = EXPORT_FOLDER / selected_results_file.name.replace(
     "race_results_",
