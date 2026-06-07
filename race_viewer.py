@@ -52,6 +52,27 @@ div[data-baseweb="tab-highlight"] {
 </style>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+<style>
+
+/* Slider left/completed track */
+.stSlider [data-baseweb="slider"] div[data-testid="stThumbValue"] ~ div {
+    background-color: #ffffff !important;
+}
+
+/* Slider tick labels */
+.stSlider p {
+    color: #ffffff !important;
+}
+
+/* Slider min/max values */
+.stSlider span {
+    color: #ffffff !important;
+}
+
+</style>
+""", unsafe_allow_html=True)
+
 # =========================
 # HELPERS
 # =========================
