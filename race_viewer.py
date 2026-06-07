@@ -65,8 +65,8 @@ def format_position_diff(diff):
 
 TEAM_STYLES = {
     "Trike Motorsports": {
-        "bg": "#4a4a4a",
-        "text": "#d16cd2",
+        "bg": "#563763",
+        "text": "#bf9000",
     },
 
     "Villiuride Racing": {
