@@ -47,19 +47,25 @@ events_file = EXPORT_FOLDER / selected_results_file.name.replace(
 
 results = pd.read_csv(selected_results_file)
 
-st.caption(f"Loaded: `{selected_results_file.name}`")
+# =========================
+# RESULTS SPOILER PROTECTION
+# =========================
 
 if "spoilers_revealed" not in st.session_state:
     st.session_state.spoilers_revealed = False
 
 if not st.session_state.spoilers_revealed:
-    st.warning("⚠️ Race results are hidden to avoid spoilers.")
 
-    if st.button("Reveal Race Results"):
+    st.divider()
+
+    st.warning(
+        "⚠️ Race results are hidden. "
+        "Follow the race through the lap-by-lap events below."
+    )
+
+    if st.button("🏁 Reveal Final Results"):
         st.session_state.spoilers_revealed = True
         st.rerun()
-
-    st.stop()
 
 # =========================
 # SUMMARY DATA
