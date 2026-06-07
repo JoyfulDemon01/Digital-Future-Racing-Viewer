@@ -1,5 +1,5 @@
 from pathlib import Path
-
+from PIL import Image
 import pandas as pd
 import streamlit as st
 
@@ -13,6 +13,10 @@ st.set_page_config(
 )
 
 st.title("DFR Race Results Viewer")
+st.image(
+    "dfr_logo.png",
+    width=250
+)
 
 
 def get_result_files():
