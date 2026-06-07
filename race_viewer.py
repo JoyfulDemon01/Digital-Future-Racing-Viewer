@@ -12,11 +12,11 @@ st.set_page_config(
     layout="wide",
 )
 
-st.title("DFR Race Results Viewer")
 st.image(
     "dfr_logo.png",
     width=250
 )
+st.title("Race Results Viewer")
 
 
 def get_result_files():
