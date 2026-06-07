@@ -44,7 +44,6 @@ def get_qualifying_files():
 
 
 st.image("viewer.png", width=1920)
-st.title("DFR Race Viewer")
 
 race_tab, qualifying_tab = st.tabs(["🏁 Race Results", "⏱ Qualifying"])
 
