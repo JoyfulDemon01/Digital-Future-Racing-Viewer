@@ -71,137 +71,139 @@ if not st.session_state.spoilers_revealed:
 # SUMMARY DATA
 # =========================
 
-finished = results[results["Status"].isin(["Running", "Finished"])]
-dnfs = results[~results["Status"].isin(["Running", "Finished"])]
+if st.session_state.spoilers_revealed:
 
-results["Position Change"] = (
-    results["Starting Position"] - results["Position"]
-)
+    finished = results[results["Status"].isin(["Running", "Finished"])]
+    dnfs = results[~results["Status"].isin(["Running", "Finished"])]
 
-classified_results = results[
-    results["Status"].isin(["Running", "Finished"])
-]
-
-biggest_gainer = classified_results.sort_values(
-    "Position Change",
-    ascending=False
-).iloc[0]
-
-biggest_loser = classified_results.sort_values(
-    "Position Change",
-    ascending=True
-).iloc[0]
-
-fastest_lap_row = results[
-    results["Fastest Lap"].notna()
-].sort_values("Fastest Lap").iloc[0]
-
-podium = results.head(3)
-
-
-# =========================
-# SUMMARY CARDS
-# =========================
-
-col1, col2, col3 = st.columns(3)
-
-with col1:
-    st.metric("Winner", results.iloc[0]["Driver"])
-
-with col2:
-    st.metric("Fastest Lap", fastest_lap_row["Driver"])
-
-with col3:
-    st.metric("DNFs", len(dnfs))
-
-
-col4, col5, col6 = st.columns(3)
-
-with col4:
-    st.metric(
-        "Biggest Gainer",
-        biggest_gainer["Driver"],
-        f"+{biggest_gainer['Position Change']}"
+    results["Position Change"] = (
+        results["Starting Position"] - results["Position"]
     )
 
-with col5:
-    st.metric(
-        "Biggest Loser",
-        biggest_loser["Driver"],
-        str(biggest_loser["Position Change"])
-    )
+    classified_results = results[
+        results["Status"].isin(["Running", "Finished"])
+    ]
 
-with col6:
-    st.metric(
-        "Pole Sitter",
-        results.sort_values("Starting Position").iloc[0]["Driver"]
-    )
+    biggest_gainer = classified_results.sort_values(
+        "Position Change",
+        ascending=False
+    ).iloc[0]
+
+    biggest_loser = classified_results.sort_values(
+        "Position Change",
+        ascending=True
+    ).iloc[0]
+
+    fastest_lap_row = results[
+        results["Fastest Lap"].notna()
+    ].sort_values("Fastest Lap").iloc[0]
+
+    podium = results.head(3)
 
 
-# =========================
-# PODIUM
-# =========================
+    # =========================
+    # SUMMARY CARDS
+    # =========================
 
-st.subheader("Podium")
+    col1, col2, col3 = st.columns(3)
 
-podium_cols = st.columns(3)
+    with col1:
+        st.metric("Winner", results.iloc[0]["Driver"])
 
-podium_order = [
-    (podium.iloc[1], "🥈 2nd Place"),
-    (podium.iloc[0], "🥇 Winner"),
-    (podium.iloc[2], "🥉 3rd Place"),
-]
+    with col2:
+        st.metric("Fastest Lap", fastest_lap_row["Driver"])
 
-for col, (driver_row, title) in zip(podium_cols, podium_order):
-    with col:
-        st.markdown(
-            f"""
-            <div style="
-                border: 1px solid #444;
-                border-radius: 12px;
-                padding: 18px;
-                text-align: center;
-                background-color: #1e1e1e;
-            ">
-                <h3>{title}</h3>
-                <h2>{driver_row['Driver']}</h2>
-                <p>{driver_row['Team']}</p>
-                <p>Started P{driver_row['Starting Position']}</p>
-            </div>
-            """,
-            unsafe_allow_html=True
+    with col3:
+        st.metric("DNFs", len(dnfs))
+
+
+    col4, col5, col6 = st.columns(3)
+
+    with col4:
+        st.metric(
+            "Biggest Gainer",
+            biggest_gainer["Driver"],
+            f"+{biggest_gainer['Position Change']}"
+        )
+
+    with col5:
+        st.metric(
+            "Biggest Loser",
+            biggest_loser["Driver"],
+            str(biggest_loser["Position Change"])
+        )
+
+    with col6:
+        st.metric(
+            "Pole Sitter",
+            results.sort_values("Starting Position").iloc[0]["Driver"]
         )
 
 
-# =========================
-# FULL RESULTS TABLE
-# =========================
+    # =========================
+    # PODIUM
+    # =========================
 
-st.subheader("Full Race Results")
+    st.subheader("Podium")
 
-display_results = results.copy()
+    podium_cols = st.columns(3)
 
-fastest_lap_time = (
-    display_results["Fastest Lap"]
-    .dropna()
-    .min()
-)
+    podium_order = [
+        (podium.iloc[1], "🥈 2nd Place"),
+        (podium.iloc[0], "🥇 Winner"),
+        (podium.iloc[2], "🥉 3rd Place"),
+    ]
 
-display_results["Fastest Lap"] = (
-    display_results["Fastest Lap"]
-    .apply(
-        lambda lap:
-        f"{lap} ★"
-        if pd.notna(lap) and lap == fastest_lap_time
-        else lap
+    for col, (driver_row, title) in zip(podium_cols, podium_order):
+        with col:
+            st.markdown(
+                f"""
+                <div style="
+                    border: 1px solid #444;
+                    border-radius: 12px;
+                    padding: 18px;
+                    text-align: center;
+                    background-color: #1e1e1e;
+                ">
+                    <h3>{title}</h3>
+                    <h2>{driver_row['Driver']}</h2>
+                    <p>{driver_row['Team']}</p>
+                    <p>Started P{driver_row['Starting Position']}</p>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+
+
+    # =========================
+    # FULL RESULTS TABLE
+    # =========================
+
+    st.subheader("Full Race Results")
+
+    display_results = results.copy()
+
+    fastest_lap_time = (
+        display_results["Fastest Lap"]
+        .dropna()
+        .min()
     )
-)
 
-st.dataframe(
-    display_results,
-    use_container_width=True,
-    hide_index=True
-)
+    display_results["Fastest Lap"] = (
+        display_results["Fastest Lap"]
+        .apply(
+            lambda lap:
+            f"{lap} ★"
+            if pd.notna(lap) and lap == fastest_lap_time
+            else lap
+        )
+    )
+
+    st.dataframe(
+        display_results,
+        use_container_width=True,
+        hide_index=True
+    )
 
 
 # =========================
