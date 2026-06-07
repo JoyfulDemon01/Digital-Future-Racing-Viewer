@@ -1,0 +1,21 @@
+Position,Starting Position,Driver,Team,Tyre,Pit Stops,Overtakes,Fastest Lap,Gap to Leader,Gap Ahead,Status
+1,1,Al Fabet,Villiuride Racing,Soft,1,7,1:22.220,0.000,0.000,Running
+2,2,Sydney Aspen,Villiuride Racing,Soft,2,8,1:22.568,10.317,10.317,Running
+3,7,Ye Li,Racing Life,Soft,2,18,1:22.936,16.009,5.691,Running
+4,6,Damien Quibuyen,Mercedes AMG Motorsport,Soft,2,13,1:23.144,16.059,0.050,Running
+5,9,Kanno Sora,LFL Engineering,Soft,1,9,1:23.502,16.158,0.100,Running
+6,5,Berend Boer,Orange Wheel Racing,Soft,2,7,1:22.751,20.498,4.340,Running
+7,8,Franc Abel,Orange Wheel Racing,Hard,1,10,1:22.831,22.901,2.403,Running
+8,4,Mark Graham,Trike Motorsports,Hard,1,9,1:23.205,23.242,0.341,Running
+9,13,Monica Niculescu,Dacia Racing Team,Soft,2,8,1:23.052,27.952,4.710,Running
+10,16,Nelson Ramsey,Scuderia Ivanov Racing,Soft,1,4,1:23.294,29.892,1.940,Running
+11,11,Aleksa Kozlov,LFL Engineering,Soft,2,9,1:22.780,30.676,0.784,Running
+12,10,Aida Haque,Scuderia Ivanov Racing,Soft,2,9,1:22.635,33.179,2.503,Running
+13,17,Fidan Basak,Pulang Kabayo Racing,Soft,2,12,1:23.263,33.254,0.075,Running
+14,19,Thorleif Valtyrsdotter,OHSN Racing,Hard,1,3,1:23.505,33.304,0.050,Running
+15,15,Eli Huertez,Pulang Kabayo Racing,Soft,1,7,1:23.267,35.959,2.655,Running
+16,20,Erwin Kramer,OHSN Racing,Soft,1,2,1:23.317,41.692,5.733,Running
+17,14,Niamh Murphy,Racing Life,Hard,1,7,1:23.635,,,Crashed on lap 31
+18,18,Liesje Roser,Dacia Racing Team,Hard,1,1,1:23.855,,,Mechanical failure on lap 25
+19,3,Jamar Henry,Trike Motorsports,Soft,0,3,1:22.694,,,Mechanical failure on lap 12
+20,12,Ananda Chohan,Mercedes AMG Motorsport,Medium,0,4,1:24.884,,,Mechanical failure on lap 8
