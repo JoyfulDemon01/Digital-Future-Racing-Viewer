@@ -17,22 +17,21 @@ st.set_page_config(
 st.markdown("""
 <style>
 
-/* Selected tab */
-button[data-baseweb="tab"][aria-selected="true"] {
+/* Tabs: selected label + underline */
+button[data-baseweb="tab"][aria-selected="true"] p {
     color: #00c853 !important;
-    border-bottom-color: #00c853 !important;
 }
 
-/* Slider */
-.stSlider [data-baseweb="slider"] div[role="slider"] {
+button[data-baseweb="tab"][aria-selected="true"] {
+    border-bottom: 2px solid #00c853 !important;
+}
+
+/* Remove default red tab indicator */
+div[data-baseweb="tab-highlight"] {
     background-color: #00c853 !important;
 }
 
-.stSlider [data-baseweb="slider"] > div > div {
-    background-color: #00c853 !important;
-}
-
-/* Buttons */
+/* Button accents */
 .stButton > button {
     border-color: #00c853 !important;
 }
@@ -42,10 +41,13 @@ button[data-baseweb="tab"][aria-selected="true"] {
     border-color: #00c853 !important;
 }
 
-/* Metrics */
-[data-testid="stMetricValue"] {
-    color: #00c853;
+/* Slider track only */
+.stSlider [data-baseweb="slider"] > div > div {
+    background-color: #00c853 !important;
 }
+
+/* Do NOT recolor metric values */
+/* Do NOT recolor slider labels/tick numbers */
 
 </style>
 """, unsafe_allow_html=True)
