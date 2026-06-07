@@ -20,6 +20,8 @@ def format_export_name(path):
         path.stem
         .replace("race_results_", "")
         .replace("qualifying_results_", "")
+        .replace("race_events_", "")
+        .replace("race_lap_standings_", "")
     )
 
     try:
@@ -43,7 +45,23 @@ def get_qualifying_files():
     )
 
 
-st.image("viewer.png", width=1920)
+def format_position_diff(diff):
+    if pd.isna(diff):
+        return "—"
+
+    diff = int(diff)
+
+    if diff > 0:
+        return f"▲ +{diff}"
+
+    if diff < 0:
+        return f"▼ {diff}"
+
+    return "—"
+
+
+st.image("dfr_logo.png", width=250)
+st.title("DFR Race Viewer")
 
 race_tab, qualifying_tab = st.tabs(["🏁 Race Results", "⏱ Qualifying"])
 
@@ -53,7 +71,6 @@ race_tab, qualifying_tab = st.tabs(["🏁 Race Results", "⏱ Qualifying"])
 # =========================
 
 with race_tab:
-    st.subheader("🏁 Race Results")
     result_files = get_result_files()
 
     if not result_files:
@@ -70,67 +87,139 @@ with race_tab:
             "race_events_"
         )
 
+        standings_file = EXPORT_FOLDER / selected_results_file.name.replace(
+            "race_results_",
+            "race_lap_standings_"
+        )
+
         results = pd.read_csv(selected_results_file)
 
         st.caption(f"Loaded: `{selected_results_file.name}`")
 
         # =========================
-        # RACE EVENTS - LAP BY LAP
+        # RACE EVENTS + LAP STANDINGS
         # =========================
+
+        st.subheader("Race Replay")
 
         if events_file.exists():
             events = pd.read_csv(events_file)
-
-            st.subheader("Race Events")
-
-            max_lap = int(events["Lap"].max()) if not events.empty else 1
-
-            if "current_lap" not in st.session_state:
-                st.session_state.current_lap = 1
-
-            col1, col2, col3, col4 = st.columns([1, 1, 2, 1])
-
-            with col1:
-                if st.button("⬅ Previous Lap"):
-                    st.session_state.current_lap = max(
-                        1,
-                        st.session_state.current_lap - 1
-                    )
-
-            with col2:
-                if st.button("Next Lap ➡"):
-                    st.session_state.current_lap = min(
-                        max_lap,
-                        st.session_state.current_lap + 1
-                    )
-
-            with col3:
-                selected_lap = st.slider(
-                    "Lap",
-                    min_value=1,
-                    max_value=max_lap,
-                    value=st.session_state.current_lap
-                )
-                st.session_state.current_lap = selected_lap
-
-            with col4:
-                if st.button("Final Lap"):
-                    st.session_state.current_lap = max_lap
-
-            current_lap = st.session_state.current_lap
-
-            st.markdown(f"### Lap {current_lap}")
-
-            lap_events = events[events["Lap"] == current_lap]
-
-            if lap_events.empty:
-                st.info("No notable events on this lap.")
-            else:
-                for _, event in lap_events.iterrows():
-                    st.write(f"• {event['Event']}")
-
         else:
-            st.info("No race events file found for this race.")
+            events = pd.DataFrame(columns=["Lap", "Event"])
+
+        if standings_file.exists():
+            lap_standings = pd.read_csv(standings_file)
+        else:
+            lap_standings = pd.DataFrame()
+
+        if not events.empty:
+            max_lap_from_events = int(events["Lap"].max())
+        else:
+            max_lap_from_events = 1
+
+        if not lap_standings.empty and "Lap" in lap_standings.columns:
+            max_lap_from_standings = int(lap_standings["Lap"].max())
+        else:
+            max_lap_from_standings = 1
+
+        max_lap = max(max_lap_from_events, max_lap_from_standings)
+
+        if "current_lap" not in st.session_state:
+            st.session_state.current_lap = 1
+
+        st.session_state.current_lap = min(
+            st.session_state.current_lap,
+            max_lap
+        )
+
+        nav_col1, nav_col2, nav_col3, nav_col4 = st.columns([1, 1, 2, 1])
+
+        with nav_col1:
+            if st.button("⬅ Previous Lap"):
+                st.session_state.current_lap = max(
+                    1,
+                    st.session_state.current_lap - 1
+                )
+
+        with nav_col2:
+            if st.button("Next Lap ➡"):
+                st.session_state.current_lap = min(
+                    max_lap,
+                    st.session_state.current_lap + 1
+                )
+
+        with nav_col3:
+            selected_lap = st.slider(
+                "Lap",
+                min_value=1,
+                max_value=max_lap,
+                value=st.session_state.current_lap
+            )
+            st.session_state.current_lap = selected_lap
+
+        with nav_col4:
+            if st.button("Final Lap"):
+                st.session_state.current_lap = max_lap
+
+        current_lap = st.session_state.current_lap
+
+        st.markdown(f"### Lap {current_lap}")
+
+        event_col, standings_col = st.columns([1, 2])
+
+        with event_col:
+            st.subheader("Events")
+
+            if events.empty:
+                st.info("No race events file found for this race.")
+            else:
+                lap_events = events[events["Lap"] == current_lap]
+
+                if lap_events.empty:
+                    st.info("No notable events on this lap.")
+                else:
+                    for _, event in lap_events.iterrows():
+                        st.write(f"• {event['Event']}")
+
+        with standings_col:
+            st.subheader("Standings")
+
+            if lap_standings.empty:
+                st.info("No lap standings file found for this race.")
+            else:
+                current_standings = lap_standings[
+                    lap_standings["Lap"] == current_lap
+                ].copy()
+
+                if current_standings.empty:
+                    st.info("No standings data for this lap.")
+                else:
+                    if "Diff" in current_standings.columns:
+                        current_standings["Diff"] = current_standings["Diff"].apply(
+                            format_position_diff
+                        )
+
+                    standings_columns = [
+                        "Position",
+                        "Last Lap Position",
+                        "Diff",
+                        "Driver",
+                        "Team",
+                        "Tyre",
+                        "Lap Time",
+                        "Fastest Lap",
+                    ]
+
+                    available_columns = [
+                        column for column in standings_columns
+                        if column in current_standings.columns
+                    ]
+
+                    st.dataframe(
+                        current_standings[available_columns],
+                        use_container_width=True,
+                        hide_index=True
+                    )
 
         # =========================
         # RESULTS SPOILER PROTECTION
@@ -144,7 +233,7 @@ with race_tab:
 
             st.warning(
                 "⚠️ Race results are hidden. "
-                "Follow the race through the lap-by-lap events above."
+                "Follow the race through the lap-by-lap replay above."
             )
 
             if st.button("🏁 Reveal Final Results"):
