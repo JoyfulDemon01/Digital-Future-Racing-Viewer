@@ -49,6 +49,17 @@ results = pd.read_csv(selected_results_file)
 
 st.caption(f"Loaded: `{selected_results_file.name}`")
 
+if "spoilers_revealed" not in st.session_state:
+    st.session_state.spoilers_revealed = False
+
+if not st.session_state.spoilers_revealed:
+    st.warning("⚠️ Race results are hidden to avoid spoilers.")
+
+    if st.button("Reveal Race Results"):
+        st.session_state.spoilers_revealed = True
+        st.rerun()
+
+    st.stop()
 
 # =========================
 # SUMMARY DATA
