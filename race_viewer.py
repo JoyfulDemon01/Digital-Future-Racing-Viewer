@@ -8,6 +8,17 @@ import streamlit as st
 QUALIFYING_EXPORT_FOLDER = Path("qualifying_exports")
 EXPORT_FOLDER = Path("race_exports")
 
+
+st.set_page_config(
+    page_title="DFR Race Viewer",
+    layout="wide",
+)
+
+
+# =========================
+# HELPERS
+# =========================
+
 def format_export_name(path):
     raw = (
         path.stem
@@ -53,7 +64,26 @@ def format_position_diff(diff):
     return "—"
 
 
-st.image("viewer.png", width=1920)
+def highlight_villiuride_driver_cell(row):
+    styles = [""] * len(row)
+
+    if row.get("Team") == "Villiuride Racing" and "Driver" in row.index:
+        driver_col_index = row.index.get_loc("Driver")
+        styles[driver_col_index] = (
+            "background-color: #9b2236; "
+            "color: #434343; "
+            "font-weight: bold;"
+        )
+
+    return styles
+
+
+# =========================
+# HEADER
+# =========================
+
+st.image("dfr_logo.png", width=250)
+st.title("DFR Race Viewer")
 
 race_tab, qualifying_tab = st.tabs(["🏁 Race Results", "⏱ Qualifying"])
 
@@ -89,10 +119,10 @@ with race_tab:
         st.caption(f"Loaded: `{selected_results_file.name}`")
 
         # =========================
-        # RACE EVENTS + LAP STANDINGS
+        # RACE REPLAY
         # =========================
 
-        st.subheader("🏁 Race Results")
+        st.subheader("Race Replay")
 
         if events_file.exists():
             events = pd.read_csv(events_file)
@@ -104,15 +134,17 @@ with race_tab:
         else:
             lap_standings = pd.DataFrame()
 
-        if not events.empty:
-            max_lap_from_events = int(events["Lap"].max())
-        else:
-            max_lap_from_events = 1
+        max_lap_from_events = (
+            int(events["Lap"].max())
+            if not events.empty and "Lap" in events.columns
+            else 1
+        )
 
-        if not lap_standings.empty and "Lap" in lap_standings.columns:
-            max_lap_from_standings = int(lap_standings["Lap"].max())
-        else:
-            max_lap_from_standings = 1
+        max_lap_from_standings = (
+            int(lap_standings["Lap"].max())
+            if not lap_standings.empty and "Lap" in lap_standings.columns
+            else 1
+        )
 
         max_lap = max(max_lap_from_events, max_lap_from_standings)
 
@@ -207,8 +239,14 @@ with race_tab:
                         if column in current_standings.columns
                     ]
 
+                    styled_standings = (
+                        current_standings[available_columns]
+                        .style
+                        .apply(highlight_villiuride_driver_cell, axis=1)
+                    )
+
                     st.dataframe(
-                        current_standings[available_columns],
+                        styled_standings,
                         use_container_width=True,
                         hide_index=True
                     )
@@ -361,62 +399,15 @@ with race_tab:
                 )
             )
 
-            display_html = """
-            <table style="width:100%; border-collapse:collapse;">
-            <tr>
-                <th>Pos</th>
-                <th>Start</th>
-                <th>Driver</th>
-                <th>Team</th>
-                <th>Tyre</th>
-                <th>Pits</th>
-                <th>Overtakes</th>
-                <th>Fastest Lap</th>
-                <th>Gap Leader</th>
-                <th>Gap Ahead</th>
-                <th>Status</th>
-            </tr>
-            """
+            styled_results = display_results.style.apply(
+                highlight_villiuride_driver_cell,
+                axis=1
+            )
 
-            for _, row in display_results.iterrows():
-
-                driver_cell = row["Driver"]
-
-                if row["Team"] == "Villuiride Racing":
-                    driver_cell = f"""
-                    <span style="
-                        background-color:#9b2236;
-                        color:#434343;
-                        padding:4px 8px;
-                        border-radius:4px;
-                        font-weight:bold;
-                        display:inline-block;
-                    ">
-                        {row["Driver"]}
-                    </span>
-                    """
-
-                display_html += f"""
-                <tr>
-                    <td>{row["Position"]}</td>
-                    <td>{row["Starting Position"]}</td>
-                    <td>{driver_cell}</td>
-                    <td>{row["Team"]}</td>
-                    <td>{row["Tyre"]}</td>
-                    <td>{row["Pit Stops"]}</td>
-                    <td>{row["Overtakes"]}</td>
-                    <td>{row["Fastest Lap"]}</td>
-                    <td>{row["Gap to Leader"]}</td>
-                    <td>{row["Gap Ahead"]}</td>
-                    <td>{row["Status"]}</td>
-                </tr>
-                """
-
-            display_html += "</table>"
-
-            st.markdown(
-                display_html,
-                unsafe_allow_html=True
+            st.dataframe(
+                styled_results,
+                use_container_width=True,
+                hide_index=True
             )
 
 
@@ -455,8 +446,13 @@ with qualifying_tab:
         with col3:
             st.metric("Pole Time", pole_sitter["Fastest Lap"])
 
+        styled_qualifying = qualifying_results.style.apply(
+            highlight_villiuride_driver_cell,
+            axis=1
+        )
+
         st.dataframe(
-            qualifying_results,
+            styled_qualifying,
             use_container_width=True,
             hide_index=True
         )
