@@ -14,6 +14,41 @@ st.set_page_config(
     layout="wide",
 )
 
+st.markdown("""
+<style>
+
+/* Selected tab */
+button[data-baseweb="tab"][aria-selected="true"] {
+    color: #00c853 !important;
+    border-bottom-color: #00c853 !important;
+}
+
+/* Slider */
+.stSlider [data-baseweb="slider"] div[role="slider"] {
+    background-color: #00c853 !important;
+}
+
+.stSlider [data-baseweb="slider"] > div > div {
+    background-color: #00c853 !important;
+}
+
+/* Buttons */
+.stButton > button {
+    border-color: #00c853 !important;
+}
+
+.stButton > button:hover {
+    color: #00c853 !important;
+    border-color: #00c853 !important;
+}
+
+/* Metrics */
+[data-testid="stMetricValue"] {
+    color: #00c853;
+}
+
+</style>
+""", unsafe_allow_html=True)
 
 # =========================
 # HELPERS
