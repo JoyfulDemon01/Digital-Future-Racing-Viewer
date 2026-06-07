@@ -416,6 +416,18 @@ with race_tab:
 
             display_results = results.copy()
 
+            for column in ["Gap to Leader", "Gap Ahead"]:
+                if column in display_results.columns:
+                    display_results[column] = display_results[column].apply(
+                        lambda gap: (
+                            "-"
+                            if pd.isna(gap)
+                            else "WINNER"
+                            if float(gap) == 0
+                            else f"+{float(gap):.3f}"
+                        )
+                    )
+
             styled_results = display_results.style.apply(
                 lambda row: style_row(row, fastest_lap_time=fastest_lap_time),
                 axis=1
