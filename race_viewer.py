@@ -71,7 +71,7 @@ def highlight_villiuride_driver_cell(row):
         driver_col_index = row.index.get_loc("Driver")
         styles[driver_col_index] = (
             "background-color: #9b2236; "
-            "color: #434343; "
+            "color: #000000; "
             "font-weight: bold;"
         )
 
