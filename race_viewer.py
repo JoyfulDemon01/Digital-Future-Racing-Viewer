@@ -73,6 +73,24 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+<style>
+
+/* Slider value labels background */
+.stSlider [data-testid="stThumbValue"] {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Slider min/max labels */
+.stSlider p {
+    background: transparent !important;
+}
+
+</style>
+""", unsafe_allow_html=True)
+
 # =========================
 # HELPERS
 # =========================
