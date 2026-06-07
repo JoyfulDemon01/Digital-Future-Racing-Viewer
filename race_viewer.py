@@ -108,9 +108,10 @@ TEAM_STYLES = {
 }
 
 
-def highlight_driver_cell(row):
+def style_row(row):
     styles = [""] * len(row)
 
+    # Team colours on Driver column
     team_style = TEAM_STYLES.get(row.get("Team"))
 
     if team_style and "Driver" in row.index:
@@ -121,6 +122,30 @@ def highlight_driver_cell(row):
             f"color: {team_style['text']}; "
             f"font-weight: bold;"
         )
+
+    # Tyre colours
+    if "Tyre" in row.index:
+        tyre_col_index = row.index.get_loc("Tyre")
+
+        tyre = str(row["Tyre"]).lower()
+
+        if tyre == "soft":
+            styles[tyre_col_index] = (
+                "color: #ff3333; "
+                "font-weight: bold;"
+            )
+
+        elif tyre == "medium":
+            styles[tyre_col_index] = (
+                "color: #ffd700; "
+                "font-weight: bold;"
+            )
+
+        elif tyre == "hard":
+            styles[tyre_col_index] = (
+                "color: #ffffff; "
+                "font-weight: bold;"
+            )
 
     return styles
 
@@ -281,7 +306,7 @@ with race_tab:
                     styled_standings = (
                         current_standings[available_columns]
                         .style
-                        .apply(highlight_driver_cell, axis=1)
+                        .apply(style_row, axis=1)
                     )
 
                     st.dataframe(
@@ -438,7 +463,7 @@ with race_tab:
             )
 
             styled_results = display_results.style.apply(
-                highlight_driver_cell,
+                style_row,
                 axis=1
             )
 
@@ -485,7 +510,7 @@ with qualifying_tab:
             st.metric("Pole Time", pole_sitter["Fastest Lap"])
 
         styled_qualifying = qualifying_results.style.apply(
-            highlight_driver_cell,
+            style_row,
             axis=1
         )
 
