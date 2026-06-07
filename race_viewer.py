@@ -66,7 +66,7 @@ def format_position_diff(diff):
 TEAM_STYLES = {
     "Trike Motorsports": {
         "bg": "#4a4a4a",
-        "text": "#f6c000",
+        "text": "#d16cd2",
     },
 
     "Villiuride Racing": {
@@ -136,8 +136,7 @@ def highlight_driver_cell(row):
 # HEADER
 # =========================
 
-st.image("dfr_logo.png", width=250)
-st.title("DFR Race Viewer")
+st.image("viewer.png", width=1920)
 
 race_tab, qualifying_tab = st.tabs(["🏁 Race Results", "⏱ Qualifying"])
 
