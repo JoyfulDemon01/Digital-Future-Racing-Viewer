@@ -14,19 +14,25 @@ st.set_page_config(
     layout="wide",
 )
 
+
+# =========================
+# CSS
+# =========================
+
 st.markdown("""
 <style>
 
-/* Tabs: selected label + underline */
+/* Selected tab text */
 button[data-baseweb="tab"][aria-selected="true"] p {
     color: #00c853 !important;
 }
 
+/* Selected tab underline */
 button[data-baseweb="tab"][aria-selected="true"] {
     border-bottom: 2px solid #00c853 !important;
 }
 
-/* Remove default red tab indicator */
+/* Streamlit tab highlight bar */
 div[data-baseweb="tab-highlight"] {
     background-color: #00c853 !important;
 }
@@ -41,70 +47,9 @@ div[data-baseweb="tab-highlight"] {
     border-color: #00c853 !important;
 }
 
-/* Slider track only */
-.stSlider [data-baseweb="slider"] > div > div {
-    background-color: #00c853 !important;
-}
-
-/* Do NOT recolor metric values */
-/* Do NOT recolor slider labels/tick numbers */
-
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown("""
-<style>
-
-/* Slider left/completed track */
-.stSlider [data-baseweb="slider"] div[data-testid="stThumbValue"] ~ div {
-    background-color: #ffffff !important;
-}
-
-/* Slider tick labels */
-.stSlider p {
-    color: #ffffff !important;
-}
-
-/* Slider min/max values */
-.stSlider span {
-    color: #ffffff !important;
-}
-
-</style>
-""", unsafe_allow_html=True)
-
-st.markdown("""
-<style>
-
-/* Slider value labels background */
-.stSlider [data-testid="stThumbValue"] {
-    background: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
-}
-
-/* Slider min/max labels */
-.stSlider p {
-    background: transparent !important;
-}
-
-</style>
-""", unsafe_allow_html=True)
-
-st.markdown("""
-<style>
-
-/* Remove all green backgrounds from slider labels */
-.stSlider span,
-.stSlider p,
-.stSlider div[data-testid="stThumbValue"] {
-    background-color: transparent !important;
-    box-shadow: none !important;
-    border: none !important;
-}
-
-</style>
-""", unsafe_allow_html=True)
 
 # =========================
 # HELPERS
@@ -127,17 +72,11 @@ def format_export_name(path):
 
 
 def get_result_files():
-    return sorted(
-        EXPORT_FOLDER.glob("race_results_*.csv"),
-        reverse=True
-    )
+    return sorted(EXPORT_FOLDER.glob("race_results_*.csv"), reverse=True)
 
 
 def get_qualifying_files():
-    return sorted(
-        QUALIFYING_EXPORT_FOLDER.glob("qualifying_results_*.csv"),
-        reverse=True
-    )
+    return sorted(QUALIFYING_EXPORT_FOLDER.glob("qualifying_results_*.csv"), reverse=True)
 
 
 def format_position_diff(diff):
@@ -154,57 +93,20 @@ def format_position_diff(diff):
 
     return "—"
 
+
 TEAM_STYLES = {
-    "Trike Motorsports": {
-        "bg": "#563763",
-        "text": "#bf9000",
-    },
-
-    "Villiuride Racing": {
-        "bg": "#9b2236",
-        "text": "#000000",
-    },
-
-    "Orange Wheel Racing": {
-        "bg": "#ff7f0e",
-        "text": "#000000",
-    },
-
-    "LFL Engineering": {
-        "bg": "#4a4a4a",
-        "text": "#00ffff",
-    },
-
-    "Racing Life": {
-        "bg": "#ff1400",
-        "text": "#000000",
-    },
-
-    "Mercedes AMG Motorsport": {
-        "bg": "#c0c0c0",
-        "text": "#000000",
-    },
-
-    "Dacia Racing Team": {
-        "bg": "#4a4a4a",
-        "text": "#ffe600",
-    },
-
-    "Pulang Kabayo Racing": {
-        "bg": "#d90000",
-        "text": "#000000",
-    },
-
-    "Scuderia Ivanov Racing": {
-        "bg": "#ff6600",
-        "text": "#000000",
-    },
-
-    "OHSN Racing": {
-        "bg": "#4a4a4a",
-        "text": "#4f83ff",
-    },
+    "Trike Motorsports": {"bg": "#563763", "text": "#bf9000"},
+    "Villiuride Racing": {"bg": "#9b2236", "text": "#000000"},
+    "Orange Wheel Racing": {"bg": "#ff7f0e", "text": "#000000"},
+    "LFL Engineering": {"bg": "#4a4a4a", "text": "#00ffff"},
+    "Racing Life": {"bg": "#ff1400", "text": "#000000"},
+    "Mercedes AMG Motorsport": {"bg": "#c0c0c0", "text": "#000000"},
+    "Dacia Racing Team": {"bg": "#4a4a4a", "text": "#ffe600"},
+    "Pulang Kabayo Racing": {"bg": "#d90000", "text": "#000000"},
+    "Scuderia Ivanov Racing": {"bg": "#ff6600", "text": "#000000"},
+    "OHSN Racing": {"bg": "#4a4a4a", "text": "#4f83ff"},
 }
+
 
 def highlight_driver_cell(row):
     styles = [""] * len(row)
@@ -268,15 +170,17 @@ with race_tab:
 
         st.subheader("Race Replay")
 
-        if events_file.exists():
-            events = pd.read_csv(events_file)
-        else:
-            events = pd.DataFrame(columns=["Lap", "Event"])
+        events = (
+            pd.read_csv(events_file)
+            if events_file.exists()
+            else pd.DataFrame(columns=["Lap", "Event"])
+        )
 
-        if standings_file.exists():
-            lap_standings = pd.read_csv(standings_file)
-        else:
-            lap_standings = pd.DataFrame()
+        lap_standings = (
+            pd.read_csv(standings_file)
+            if standings_file.exists()
+            else pd.DataFrame()
+        )
 
         max_lap_from_events = (
             int(events["Lap"].max())
@@ -295,26 +199,17 @@ with race_tab:
         if "current_lap" not in st.session_state:
             st.session_state.current_lap = 1
 
-        st.session_state.current_lap = min(
-            st.session_state.current_lap,
-            max_lap
-        )
+        st.session_state.current_lap = min(st.session_state.current_lap, max_lap)
 
         nav_col1, nav_col2, nav_col3, nav_col4 = st.columns([1, 1, 2, 1])
 
         with nav_col1:
             if st.button("⬅ Previous Lap"):
-                st.session_state.current_lap = max(
-                    1,
-                    st.session_state.current_lap - 1
-                )
+                st.session_state.current_lap = max(1, st.session_state.current_lap - 1)
 
         with nav_col2:
             if st.button("Next Lap ➡"):
-                st.session_state.current_lap = min(
-                    max_lap,
-                    st.session_state.current_lap + 1
-                )
+                st.session_state.current_lap = min(max_lap, st.session_state.current_lap + 1)
 
         with nav_col3:
             selected_lap = st.slider(
@@ -419,7 +314,6 @@ with race_tab:
         # =========================
 
         if st.session_state.spoilers_revealed:
-            finished = results[results["Status"].isin(["Running", "Finished"])]
             dnfs = results[~results["Status"].isin(["Running", "Finished"])]
 
             results["Position Change"] = (
