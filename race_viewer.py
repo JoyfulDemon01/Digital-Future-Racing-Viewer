@@ -361,10 +361,62 @@ with race_tab:
                 )
             )
 
-            st.dataframe(
-                display_results,
-                use_container_width=True,
-                hide_index=True
+            display_html = """
+            <table style="width:100%; border-collapse:collapse;">
+            <tr>
+                <th>Pos</th>
+                <th>Start</th>
+                <th>Driver</th>
+                <th>Team</th>
+                <th>Tyre</th>
+                <th>Pits</th>
+                <th>Overtakes</th>
+                <th>Fastest Lap</th>
+                <th>Gap Leader</th>
+                <th>Gap Ahead</th>
+                <th>Status</th>
+            </tr>
+            """
+
+            for _, row in display_results.iterrows():
+
+                driver_cell = row["Driver"]
+
+                if row["Team"] == "Villuiride Racing":
+                    driver_cell = f"""
+                    <span style="
+                        background-color:#9b2236;
+                        color:#434343;
+                        padding:4px 8px;
+                        border-radius:4px;
+                        font-weight:bold;
+                        display:inline-block;
+                    ">
+                        {row["Driver"]}
+                    </span>
+                    """
+
+                display_html += f"""
+                <tr>
+                    <td>{row["Position"]}</td>
+                    <td>{row["Starting Position"]}</td>
+                    <td>{driver_cell}</td>
+                    <td>{row["Team"]}</td>
+                    <td>{row["Tyre"]}</td>
+                    <td>{row["Pit Stops"]}</td>
+                    <td>{row["Overtakes"]}</td>
+                    <td>{row["Fastest Lap"]}</td>
+                    <td>{row["Gap to Leader"]}</td>
+                    <td>{row["Gap Ahead"]}</td>
+                    <td>{row["Status"]}</td>
+                </tr>
+                """
+
+            display_html += "</table>"
+
+            st.markdown(
+                display_html,
+                unsafe_allow_html=True
             )
 
 
