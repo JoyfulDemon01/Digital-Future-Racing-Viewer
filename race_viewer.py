@@ -53,6 +53,7 @@ race_tab, qualifying_tab = st.tabs(["🏁 Race Results", "⏱ Qualifying"])
 # =========================
 
 with race_tab:
+    st.subheader("🏁 Race Results")
     result_files = get_result_files()
 
     if not result_files:
