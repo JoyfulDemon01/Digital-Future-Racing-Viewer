@@ -156,10 +156,26 @@ with race_tab:
     if not result_files:
         st.warning("No race result exports found yet.")
     else:
+        def format_race_selector(path):
+            try:
+                df = pd.read_csv(path, nrows=1)
+
+                track_name = (
+                    df.iloc[0]["Track"]
+                    if "Track" in df.columns
+                    else "Unknown Track"
+                )
+
+                return f"{track_name} Race - {format_export_name(path)}"
+
+            except Exception:
+                return f"Race - {format_export_name(path)}"
+
+
         selected_results_file = st.selectbox(
             "Select Race",
             result_files,
-            format_func=lambda path: f"Race - {format_export_name(path)}"
+            format_func=format_race_selector
         )
 
         events_file = EXPORT_FOLDER / selected_results_file.name.replace(
@@ -455,7 +471,10 @@ with qualifying_tab:
         selected_qualifying_file = st.selectbox(
             "Select Qualifying Session",
             qualifying_files,
-            format_func=lambda path: f"Qualifying - {format_export_name(path)}"
+            format_func=lambda path: (
+                f"{pd.read_csv(path, nrows=1).iloc[0]['Track']} Qualifying - "
+                f"{format_export_name(path)}"
+            )
         )
 
         qualifying_results = pd.read_csv(selected_qualifying_file)
