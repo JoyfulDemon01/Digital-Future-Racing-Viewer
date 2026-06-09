@@ -176,6 +176,10 @@ with race_tab:
 
         st.caption(f"Loaded: `{selected_results_file.name}`")
 
+        if "Track" in results.columns:
+            track_name = results.iloc[0]["Track"]
+            st.subheader(f"🏁 {track_name}")
+
         st.subheader("Race Replay")
 
         events = (
