@@ -92,7 +92,7 @@ TEAM_STYLES = {
     "Orange Wheel Racing": {"bg": "#ff7f0e", "text": "#000000"},
     "LFL Engineering": {"bg": "#4a4a4a", "text": "#00ffff"},
     "Racing Life": {"bg": "#ff1400", "text": "#000000"},
-    "Mercedes AMG Motorsport": {"bg": "#c0c0c0", "text": "#000000"},
+    "Mercedes AMG Motorsport": {"bg": "#c0c0c0", "text": "#EC0000"},
     "Dacia Racing Team": {"bg": "#4a4a4a", "text": "#ffe600"},
     "Pulang Kabayo Racing": {"bg": "#d90000", "text": "#000000"},
     "Scuderia Ivanov Racing": {"bg": "#ff6600", "text": "#000000"},
