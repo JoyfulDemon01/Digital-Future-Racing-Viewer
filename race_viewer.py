@@ -89,13 +89,13 @@ def format_position_diff(diff):
 TEAM_STYLES = {
     "Trike Motorsports": {"bg": "#563763", "text": "#bf9000"},
     "Villiuride Racing": {"bg": "#9b2236", "text": "#000000"},
-    "Shell Motorsports": {"bg": "ffcd00", "text": "#434343"},
+    "Shell Motorsports": {"bg": "ffcc00", "text": "#434343"},
     "LFL Engineering": {"bg": "#4a4a4a", "text": "#00ffff"},
     "Racing Life": {"bg": "#ff1400", "text": "#000000"},
     "Mercedes AMG Motorsport": {"bg": "#c0c0c0", "text": "#EC0000"},
     "Dacia Racing Team": {"bg": "#4a4a4a", "text": "#ffe600"},
     "Pulang Kabayo Racing": {"bg": "#d90000", "text": "#000000"},
-    "Icarus": {"bg": "23493c", "text": "#fed400"},
+    "Icarus": {"bg": "003333", "text": "#fed400"},
 }
 
 
