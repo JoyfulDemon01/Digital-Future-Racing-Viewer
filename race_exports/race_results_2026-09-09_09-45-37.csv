@@ -1,0 +1,19 @@
+Track,Position,Starting Position,Driver,Team,Tyre,Pit Stops,Overtakes,Fastest Lap,Gap to Leader,Gap Ahead,Status
+Silverstone,1,5,Ye Li,Racing Life,Medium,1,4,1:48.985,0.000,0.000,Running
+Silverstone,2,1,Berend Boer,Shell Motorsports,Hard,1,9,1:49.150,0.050,0.050,Running
+Silverstone,3,2,Franc Abel,Shell Motorsports,Soft,1,6,1:48.680,0.827,0.777,Running
+Silverstone,4,4,Mark Graham,Trike Motorsports,Hard,1,8,1:48.700,2.017,1.190,Running
+Silverstone,5,6,Ananda Chohan,Mercedes AMG Motorsport,Hard,1,8,1:48.713,7.780,5.763,Running
+Silverstone,6,17,Aida Haque,Icarus,Hard,1,5,1:49.323,12.284,4.503,Running
+Silverstone,7,10,Kanno Sora,LFL Engineering,Hard,1,7,1:49.295,14.093,1.810,Running
+Silverstone,8,12,Eli Huertez,Pulang Kabayo Racing,Soft,2,10,1:49.309,15.222,1.128,Running
+Silverstone,9,14,Al Fabet,Villiuride Racing,Hard,1,6,1:49.480,21.303,6.081,Running
+Silverstone,10,13,Niamh Murphy,Racing Life,Soft,1,5,1:48.841,23.418,2.115,Running
+Silverstone,11,7,Monica Niculescu,Dacia Racing Team,Medium,2,8,1:49.149,23.753,0.335,Running
+Silverstone,12,16,Liesje Roser,Dacia Racing Team,Medium,2,4,1:49.538,31.603,7.850,Running
+Silverstone,13,18,Clara Longo,Icarus,Soft,1,2,1:49.463,35.340,3.737,Running
+Silverstone,14,11,Aleksa Kozlov,LFL Engineering,Hard,2,5,1:49.429,36.352,1.012,Running
+Silverstone,15,15,Fidan Basak,Pulang Kabayo Racing,Hard,1,6,1:49.790,,,Mechanical failure on lap 29
+Silverstone,16,9,Sydney Aspen,Villiuride Racing,Medium,0,1,1:49.975,,,Crashed on lap 13
+Silverstone,17,8,Jamar Henry,Trike Motorsports,Medium,0,2,1:49.854,,,Mechanical failure on lap 10
+Silverstone,18,3,Damien Quibuyen,Mercedes AMG Motorsport,Soft,0,1,1:50.429,,,Crashed on lap 3
