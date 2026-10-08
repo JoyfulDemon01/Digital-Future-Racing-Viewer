@@ -1,0 +1,1261 @@
+Lap,Position,Last Lap Position,Diff,Driver,Team,Tyre,Lap Time,Gap Ahead,Gap to Leader,Status
+1,1,1,0,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:49.528,-,-,Running
+1,2,2,0,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:49.215,+0.050,+0.050,Running
+1,3,3,0,Ye Li,Racing Life,Soft,1:49.952,+0.474,+0.524,Running
+1,4,4,0,Berend Boer,Shell Motorsports,Medium,1:50.199,+0.010,+0.534,Running
+1,5,5,0,Franc Abel,Shell Motorsports,Soft,1:50.490,+0.040,+0.574,Running
+1,6,6,0,Jamar Henry,Trike Motorsports,Medium,1:50.080,+0.840,+1.415,Running
+1,7,7,0,Monica Niculescu,Dacia Racing Team,Medium,1:50.473,+0.642,+2.057,Running
+1,8,8,0,Mark Graham,Trike Motorsports,Medium,1:49.836,+0.020,+2.077,Running
+1,9,9,0,Sydney Aspen,Villiuride Racing,Medium,1:50.042,+0.050,+2.127,Running
+1,10,10,0,Eli Huertez,Pulang Kabayo Racing,Soft,1:49.426,+0.571,+2.698,Running
+1,11,11,0,Kanno Sora,LFL Engineering,Medium,1:50.913,+0.050,+2.748,Running
+1,12,12,0,Niamh Murphy,Racing Life,Soft,1:50.853,+0.440,+3.188,Running
+1,13,13,0,Fidan Basak,Pulang Kabayo Racing,Medium,1:51.033,+0.343,+3.531,Running
+1,14,14,0,Al Fabet,Villiuride Racing,Soft,1:50.747,+0.050,+3.581,Running
+1,15,15,0,Clara Longo,Icarus,Hard,1:50.033,+0.787,+4.368,Running
+1,16,16,0,Aleksa Kozlov,LFL Engineering,Medium,1:50.707,+0.174,+4.542,Running
+1,17,17,0,Liesje Roser,Dacia Racing Team,Soft,1:51.707,+0.539,+5.081,Running
+1,18,18,0,Aida Haque,Icarus,Soft,1:51.046,+0.050,+5.131,Running
+2,1,3,2,Ye Li,Racing Life,Soft,1:49.229,-,-,Running
+2,2,2,0,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:49.929,+0.225,+0.225,Running
+2,3,1,-2,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:50.082,+0.103,+0.329,Running
+2,4,5,1,Franc Abel,Shell Motorsports,Soft,1:50.370,+0.340,+0.668,Running
+2,5,4,-1,Berend Boer,Shell Motorsports,Medium,1:49.938,+0.050,+0.718,Running
+2,6,12,6,Niamh Murphy,Racing Life,Soft,1:49.113,+1.587,+2.305,Running
+2,7,6,-1,Jamar Henry,Trike Motorsports,Medium,1:50.694,+0.050,+2.355,Running
+2,8,7,-1,Monica Niculescu,Dacia Racing Team,Medium,1:51.230,+1.179,+3.534,Running
+2,9,14,5,Al Fabet,Villiuride Racing,Soft,1:50.338,+0.631,+4.165,Running
+2,10,11,1,Kanno Sora,LFL Engineering,Medium,1:51.183,+0.013,+4.178,Running
+2,11,8,-3,Mark Graham,Trike Motorsports,Medium,1:51.880,+0.026,+4.203,Running
+2,12,10,-2,Eli Huertez,Pulang Kabayo Racing,Soft,1:51.298,+0.039,+4.243,Running
+2,13,9,-4,Sydney Aspen,Villiuride Racing,Medium,1:52.128,+0.258,+4.501,Running
+2,14,13,-1,Fidan Basak,Pulang Kabayo Racing,Medium,1:50.844,+0.121,+4.622,Running
+2,15,17,2,Liesje Roser,Dacia Racing Team,Soft,1:49.759,+0.465,+5.087,Running
+2,16,15,-1,Clara Longo,Icarus,Hard,1:51.613,+0.552,+5.639,Running
+2,17,16,-1,Aleksa Kozlov,LFL Engineering,Medium,1:50.901,+0.050,+5.689,Running
+2,18,18,0,Aida Haque,Icarus,Soft,1:51.513,+1.201,+6.890,Running
+3,1,3,2,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:49.469,-,-,Running
+3,2,5,3,Berend Boer,Shell Motorsports,Medium,1:49.659,+0.580,+0.580,Running
+3,3,1,-2,Ye Li,Racing Life,Soft,1:50.663,+0.092,+0.673,Running
+3,4,4,0,Franc Abel,Shell Motorsports,Soft,1:49.851,+0.050,+0.723,Running
+3,5,2,-3,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:51.181,+0.886,+1.609,Running
+3,6,6,0,Niamh Murphy,Racing Life,Soft,1:50.305,+1.204,+2.813,Running
+3,7,7,0,Jamar Henry,Trike Motorsports,Medium,1:50.474,+0.219,+3.032,Running
+3,8,9,1,Al Fabet,Villiuride Racing,Soft,1:50.100,+1.436,+4.468,Running
+3,9,14,5,Fidan Basak,Pulang Kabayo Racing,Medium,1:49.751,+0.108,+4.576,Running
+3,10,11,1,Mark Graham,Trike Motorsports,Medium,1:50.323,+0.154,+4.730,Running
+3,11,8,-3,Monica Niculescu,Dacia Racing Team,Medium,1:50.995,+0.002,+4.731,Running
+3,12,15,3,Liesje Roser,Dacia Racing Team,Soft,1:49.498,+0.056,+4.787,Running
+3,13,10,-3,Kanno Sora,LFL Engineering,Medium,1:50.519,+0.113,+4.900,Running
+3,14,13,-1,Sydney Aspen,Villiuride Racing,Medium,1:51.302,+0.400,+5.300,Running
+3,15,12,-3,Eli Huertez,Pulang Kabayo Racing,Soft,1:50.904,+0.050,+5.350,Running
+3,16,16,0,Clara Longo,Icarus,Hard,1:50.591,+1.083,+6.433,Running
+3,17,17,0,Aleksa Kozlov,LFL Engineering,Medium,1:51.247,+0.706,+7.139,Running
+3,18,18,0,Aida Haque,Icarus,Soft,1:50.052,+0.006,+7.145,Running
+4,1,4,3,Franc Abel,Shell Motorsports,Soft,1:49.133,-,-,Running
+4,2,1,-1,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:49.866,+0.010,+0.010,Running
+4,3,2,-1,Berend Boer,Shell Motorsports,Medium,1:51.167,+1.412,+1.422,Running
+4,4,5,1,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:49.719,+0.050,+1.472,Running
+4,5,3,-2,Ye Li,Racing Life,Soft,1:51.387,+0.369,+1.841,Running
+4,6,6,0,Niamh Murphy,Racing Life,Soft,1:49.508,+0.624,+2.465,Running
+4,7,7,0,Jamar Henry,Trike Motorsports,Medium,1:50.313,+1.024,+3.489,Running
+4,8,9,1,Fidan Basak,Pulang Kabayo Racing,Medium,1:49.732,+0.892,+4.381,Running
+4,9,8,-1,Al Fabet,Villiuride Racing,Soft,1:50.146,+0.020,+4.402,Running
+4,10,12,2,Liesje Roser,Dacia Racing Team,Soft,1:49.500,+0.030,+4.431,Running
+4,11,15,4,Eli Huertez,Pulang Kabayo Racing,Soft,1:49.711,+0.774,+5.205,Running
+4,12,10,-2,Mark Graham,Trike Motorsports,Medium,1:51.036,+0.020,+5.225,Running
+4,13,13,0,Kanno Sora,LFL Engineering,Medium,1:50.231,+0.050,+5.275,Running
+4,14,14,0,Sydney Aspen,Villiuride Racing,Medium,1:50.665,+0.659,+5.934,Running
+4,15,11,-4,Monica Niculescu,Dacia Racing Team,Medium,1:51.109,+0.050,+5.984,Running
+4,16,18,2,Aida Haque,Icarus,Soft,1:49.460,+0.765,+6.749,Running
+4,17,16,-1,Clara Longo,Icarus,Hard,1:52.325,+1.217,+7.966,Running
+4,18,17,-1,Aleksa Kozlov,LFL Engineering,Medium,1:50.732,+0.050,+8.016,Running
+5,1,1,0,Franc Abel,Shell Motorsports,Soft,1:49.286,-,-,Running
+5,2,2,0,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:50.028,+0.753,+0.753,Running
+5,3,6,3,Niamh Murphy,Racing Life,Soft,1:49.248,+1.674,+2.427,Running
+5,4,5,1,Ye Li,Racing Life,Soft,1:50.347,+0.179,+2.606,Running
+5,5,3,-2,Berend Boer,Shell Motorsports,Medium,1:50.520,+0.050,+2.656,Running
+5,6,7,1,Jamar Henry,Trike Motorsports,Medium,1:49.395,+0.530,+3.187,Running
+5,7,4,-3,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:51.050,+0.050,+3.237,Running
+5,8,9,1,Al Fabet,Villiuride Racing,Soft,1:49.122,+1.002,+4.238,Running
+5,9,10,1,Liesje Roser,Dacia Racing Team,Soft,1:49.544,+0.451,+4.689,Running
+5,10,8,-2,Fidan Basak,Pulang Kabayo Racing,Medium,1:50.502,+0.909,+5.598,Running
+5,11,11,0,Eli Huertez,Pulang Kabayo Racing,Soft,1:49.842,+0.163,+5.761,Running
+5,12,14,2,Sydney Aspen,Villiuride Racing,Medium,1:50.407,+1.067,+6.828,Running
+5,13,12,-1,Mark Graham,Trike Motorsports,Medium,1:50.938,+0.050,+6.877,Running
+5,14,13,-1,Kanno Sora,LFL Engineering,Medium,1:50.888,+0.000,+6.878,Running
+5,15,16,1,Aida Haque,Icarus,Soft,1:49.865,+0.450,+7.328,Running
+5,16,18,2,Aleksa Kozlov,LFL Engineering,Medium,1:50.189,+0.910,+8.239,Running
+5,17,15,-2,Monica Niculescu,Dacia Racing Team,Medium,1:51.590,+0.050,+8.289,Running
+5,18,17,-1,Clara Longo,Icarus,Hard,1:50.410,+0.802,+9.090,Running
+6,1,2,1,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:49.458,-,-,Running
+6,2,1,-1,Franc Abel,Shell Motorsports,Soft,1:50.860,+0.650,+0.650,Running
+6,3,4,1,Ye Li,Racing Life,Soft,1:49.525,+1.271,+1.921,Running
+6,4,3,-1,Niamh Murphy,Racing Life,Soft,1:51.199,+1.336,+3.258,Running
+6,5,9,4,Liesje Roser,Dacia Racing Team,Soft,1:48.793,+0.014,+3.272,Running
+6,6,6,0,Jamar Henry,Trike Motorsports,Medium,1:50.331,+0.036,+3.308,Running
+6,7,7,0,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:50.867,+0.586,+3.894,Running
+6,8,5,-3,Berend Boer,Shell Motorsports,Medium,1:51.590,+0.143,+4.036,Running
+6,9,8,-1,Al Fabet,Villiuride Racing,Soft,1:50.401,+0.393,+4.429,Running
+6,10,10,0,Fidan Basak,Pulang Kabayo Racing,Medium,1:51.226,+1.655,+6.084,Running
+6,11,11,0,Eli Huertez,Pulang Kabayo Racing,Soft,1:50.583,+0.050,+6.134,Running
+6,12,15,3,Aida Haque,Icarus,Soft,1:49.566,+0.430,+6.564,Running
+6,13,14,1,Kanno Sora,LFL Engineering,Medium,1:50.759,+0.863,+7.427,Running
+6,14,12,-2,Sydney Aspen,Villiuride Racing,Medium,1:51.498,+0.318,+7.745,Running
+6,15,13,-2,Mark Graham,Trike Motorsports,Medium,1:51.128,+0.050,+7.795,Running
+6,16,16,0,Aleksa Kozlov,LFL Engineering,Medium,1:51.538,+1.771,+9.566,Running
+6,17,17,0,Monica Niculescu,Dacia Racing Team,Medium,1:51.728,+0.240,+9.806,Running
+6,18,18,0,Clara Longo,Icarus,Hard,1:51.756,+0.830,+10.636,Running
+7,1,2,1,Franc Abel,Shell Motorsports,Soft,1:50.898,-,-,Running
+7,2,1,-1,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:50.952,+0.050,+0.050,Running
+7,3,3,0,Ye Li,Racing Life,Soft,1:50.355,+1.324,+1.374,Running
+7,4,6,2,Jamar Henry,Trike Motorsports,Medium,1:50.016,+0.816,+2.190,Running
+7,5,4,-1,Niamh Murphy,Racing Life,Soft,1:49.885,+0.050,+2.240,Running
+7,6,5,-1,Liesje Roser,Dacia Racing Team,Soft,1:50.861,+0.800,+3.040,Running
+7,7,7,0,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:50.099,+0.050,+3.090,Running
+7,8,8,0,Berend Boer,Shell Motorsports,Medium,1:51.139,+0.660,+3.750,Running
+7,9,9,0,Al Fabet,Villiuride Racing,Soft,1:50.273,+0.050,+3.800,Running
+7,10,11,1,Eli Huertez,Pulang Kabayo Racing,Soft,1:49.608,+1.039,+4.839,Running
+7,11,12,1,Aida Haque,Icarus,Soft,1:50.910,+0.838,+5.677,Running
+7,12,10,-2,Fidan Basak,Pulang Kabayo Racing,Medium,1:50.546,+0.050,+5.727,Running
+7,13,14,1,Sydney Aspen,Villiuride Racing,Medium,1:50.753,+1.441,+7.168,Running
+7,14,13,-1,Kanno Sora,LFL Engineering,Medium,1:50.693,+0.050,+7.218,Running
+7,15,15,0,Mark Graham,Trike Motorsports,Medium,1:51.099,+0.328,+7.546,Running
+7,16,16,0,Aleksa Kozlov,LFL Engineering,Medium,1:50.174,+1.292,+8.838,Running
+7,17,17,0,Monica Niculescu,Dacia Racing Team,Medium,1:51.928,+1.994,+10.832,Running
+7,18,18,0,Clara Longo,Icarus,Hard,1:51.370,+0.272,+11.104,Running
+8,1,1,0,Franc Abel,Shell Motorsports,Soft,1:50.630,-,-,Running
+8,2,2,0,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:50.529,+0.050,+0.050,Running
+8,3,5,2,Niamh Murphy,Racing Life,Soft,1:50.233,+1.894,+1.944,Running
+8,4,3,-1,Ye Li,Racing Life,Soft,1:51.500,+0.400,+2.344,Running
+8,5,4,-1,Jamar Henry,Trike Motorsports,Medium,1:51.030,+0.347,+2.691,Running
+8,6,7,1,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:50.794,+0.664,+3.355,Running
+8,7,6,-1,Liesje Roser,Dacia Racing Team,Soft,1:51.333,+0.489,+3.844,Running
+8,8,9,1,Al Fabet,Villiuride Racing,Soft,1:50.742,+0.169,+4.013,Running
+8,9,10,1,Eli Huertez,Pulang Kabayo Racing,Soft,1:49.741,+0.038,+4.051,Running
+8,10,8,-2,Berend Boer,Shell Motorsports,Medium,1:51.003,+0.173,+4.224,Running
+8,11,11,0,Aida Haque,Icarus,Soft,1:51.085,+2.009,+6.233,Running
+8,12,12,0,Fidan Basak,Pulang Kabayo Racing,Medium,1:51.572,+0.537,+6.770,Running
+8,13,15,2,Mark Graham,Trike Motorsports,Medium,1:51.260,+0.709,+7.478,Running
+8,14,14,0,Kanno Sora,LFL Engineering,Medium,1:50.840,+0.050,+7.528,Running
+8,15,16,1,Aleksa Kozlov,LFL Engineering,Medium,1:50.353,+0.891,+8.419,Running
+8,16,13,-3,Sydney Aspen,Villiuride Racing,Medium,1:51.831,+0.050,+8.469,Running
+8,17,18,1,Clara Longo,Icarus,Hard,1:50.377,+2.252,+10.721,Running
+8,18,17,-1,Monica Niculescu,Dacia Racing Team,Medium,1:50.469,+0.050,+10.771,Running
+9,1,2,1,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:51.626,-,-,Running
+9,2,1,-1,Franc Abel,Shell Motorsports,Soft,1:51.054,+0.050,+0.050,Running
+9,3,3,0,Niamh Murphy,Racing Life,Soft,1:50.377,+1.267,+1.317,Running
+9,4,4,0,Ye Li,Racing Life,Soft,1:50.532,+0.555,+1.872,Running
+9,5,5,0,Jamar Henry,Trike Motorsports,Medium,1:50.197,+0.012,+1.884,Running
+9,6,6,0,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:50.316,+0.782,+2.667,Running
+9,7,7,0,Liesje Roser,Dacia Racing Team,Soft,1:50.455,+0.574,+3.241,Running
+9,8,8,0,Al Fabet,Villiuride Racing,Soft,1:50.249,+0.018,+3.259,Running
+9,9,10,1,Berend Boer,Shell Motorsports,Medium,1:50.070,+0.032,+3.291,Running
+9,10,9,-1,Eli Huertez,Pulang Kabayo Racing,Soft,1:50.824,+0.581,+3.872,Running
+9,11,13,2,Mark Graham,Trike Motorsports,Medium,1:50.338,+2.133,+6.005,Running
+9,12,11,-1,Aida Haque,Icarus,Soft,1:50.825,+0.050,+6.055,Running
+9,13,16,3,Sydney Aspen,Villiuride Racing,Medium,1:49.414,+0.825,+6.880,Running
+9,14,12,-2,Fidan Basak,Pulang Kabayo Racing,Medium,1:51.777,+0.664,+7.544,Running
+9,15,15,0,Aleksa Kozlov,LFL Engineering,Medium,1:51.143,+0.434,+7.978,Running
+9,16,14,-2,Kanno Sora,LFL Engineering,Medium,1:51.503,+0.050,+8.028,Running
+9,17,18,1,Monica Niculescu,Dacia Racing Team,Medium,1:50.958,+2.698,+10.726,Running
+9,18,17,-1,Clara Longo,Icarus,Hard,1:52.104,+1.096,+11.821,Running
+10,1,1,0,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:50.578,-,-,Running
+10,2,2,0,Franc Abel,Shell Motorsports,Soft,1:50.621,+0.093,+0.093,Running
+10,3,4,1,Ye Li,Racing Life,Soft,1:49.918,+1.119,+1.212,Running
+10,4,5,1,Jamar Henry,Trike Motorsports,Medium,1:50.518,+0.612,+1.825,Running
+10,5,3,-2,Niamh Murphy,Racing Life,Soft,1:51.401,+0.241,+2.066,Running
+10,6,8,2,Al Fabet,Villiuride Racing,Soft,1:49.568,+0.024,+2.090,Running
+10,7,6,-1,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:50.027,+0.026,+2.116,Running
+10,8,10,2,Eli Huertez,Pulang Kabayo Racing,Soft,1:49.342,+0.520,+2.636,Running
+10,9,7,-2,Liesje Roser,Dacia Racing Team,Soft,1:51.424,+1.275,+3.910,Running
+10,10,9,-1,Berend Boer,Shell Motorsports,Medium,1:51.247,+0.050,+3.960,Running
+10,11,11,0,Mark Graham,Trike Motorsports,Medium,1:51.165,+2.631,+6.591,Running
+10,12,13,1,Sydney Aspen,Villiuride Racing,Medium,1:50.448,+0.158,+6.750,Running
+10,13,12,-1,Aida Haque,Icarus,Soft,1:51.952,+0.679,+7.428,Running
+10,14,16,2,Kanno Sora,LFL Engineering,Medium,1:50.046,+0.067,+7.496,Running
+10,15,14,-1,Fidan Basak,Pulang Kabayo Racing,Medium,1:51.909,+1.239,+8.734,Running
+10,16,15,-1,Aleksa Kozlov,LFL Engineering,Medium,1:51.385,+0.050,+8.784,Running
+10,17,17,0,Monica Niculescu,Dacia Racing Team,Medium,1:49.979,+1.342,+10.126,Running
+10,18,18,0,Clara Longo,Icarus,Hard,1:50.338,+1.456,+11.582,Running
+11,1,1,0,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:50.758,-,-,Running
+11,2,6,4,Al Fabet,Villiuride Racing,Soft,1:49.196,+0.232,+0.232,Running
+11,3,2,-1,Franc Abel,Shell Motorsports,Soft,1:50.947,+0.050,+0.282,Running
+11,4,3,-1,Ye Li,Racing Life,Soft,1:51.216,+1.388,+1.670,Running
+11,5,5,0,Niamh Murphy,Racing Life,Soft,1:50.542,+0.116,+1.786,Running
+11,6,7,1,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:51.146,+0.013,+1.799,Running
+11,7,4,-3,Jamar Henry,Trike Motorsports,Medium,1:50.770,+0.037,+1.836,Running
+11,8,8,0,Eli Huertez,Pulang Kabayo Racing,Soft,1:51.192,+1.233,+3.070,Running
+11,9,10,1,Berend Boer,Shell Motorsports,Medium,1:50.033,+0.165,+3.235,Running
+11,10,9,-1,Liesje Roser,Dacia Racing Team,Soft,1:51.433,+1.350,+4.585,Running
+11,11,11,0,Mark Graham,Trike Motorsports,Medium,1:50.557,+1.677,+6.262,Running
+11,12,13,1,Aida Haque,Icarus,Soft,1:49.642,+0.050,+6.312,Running
+11,13,12,-1,Sydney Aspen,Villiuride Racing,Medium,1:50.885,+0.027,+6.340,Running
+11,14,14,0,Kanno Sora,LFL Engineering,Medium,1:51.030,+0.487,+6.827,Running
+11,15,16,1,Aleksa Kozlov,LFL Engineering,Medium,1:50.661,+1.860,+8.687,Running
+11,16,15,-1,Fidan Basak,Pulang Kabayo Racing,Medium,1:50.841,+0.130,+8.817,Running
+11,17,17,0,Monica Niculescu,Dacia Racing Team,Medium,1:52.001,+2.553,+11.369,Running
+11,18,18,0,Clara Longo,Icarus,Hard,1:52.297,+1.751,+13.120,Running
+12,1,1,0,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:50.070,-,-,Running
+12,2,3,1,Franc Abel,Shell Motorsports,Soft,1:49.871,+0.084,+0.084,Running
+12,3,4,1,Ye Li,Racing Life,Soft,1:49.937,+1.454,+1.538,Running
+12,4,5,1,Niamh Murphy,Racing Life,Soft,1:50.538,+0.162,+1.700,Running
+12,5,2,-3,Al Fabet,Villiuride Racing,Soft,1:51.553,+0.015,+1.715,Running
+12,6,7,1,Jamar Henry,Trike Motorsports,Medium,1:49.983,+0.035,+1.750,Running
+12,7,8,1,Eli Huertez,Pulang Kabayo Racing,Soft,1:50.696,+1.946,+3.696,Running
+12,8,9,1,Berend Boer,Shell Motorsports,Medium,1:50.819,+0.031,+3.727,Running
+12,9,6,-3,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:52.047,+0.050,+3.777,Running
+12,10,13,3,Sydney Aspen,Villiuride Racing,Medium,1:49.731,+1.407,+5.184,Running
+12,11,10,-1,Liesje Roser,Dacia Racing Team,Soft,1:50.719,+0.050,+5.234,Running
+12,12,12,0,Aida Haque,Icarus,Soft,1:50.273,+1.281,+6.515,Running
+12,13,11,-2,Mark Graham,Trike Motorsports,Medium,1:52.348,+1.043,+7.558,Running
+12,14,14,0,Kanno Sora,LFL Engineering,Medium,1:50.851,+0.050,+7.608,Running
+12,15,16,1,Fidan Basak,Pulang Kabayo Racing,Medium,1:51.567,+2.706,+10.314,Running
+12,16,17,1,Monica Niculescu,Dacia Racing Team,Medium,1:50.746,+1.732,+12.046,Running
+12,17,18,1,Clara Longo,Icarus,Hard,1:52.085,+3.089,+15.135,Running
+12,18,15,-3,Aleksa Kozlov,LFL Engineering,Hard,1:51.625,+17.107,+32.242,Running
+13,1,1,0,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:50.986,-,-,Running
+13,2,3,1,Ye Li,Racing Life,Soft,1:49.648,+0.200,+0.200,Running
+13,3,8,5,Berend Boer,Shell Motorsports,Medium,1:48.444,+0.030,+0.229,Running
+13,4,2,-2,Franc Abel,Shell Motorsports,Soft,1:51.182,+0.050,+0.279,Running
+13,5,5,0,Al Fabet,Villiuride Racing,Soft,1:50.659,+1.109,+1.389,Running
+13,6,7,1,Eli Huertez,Pulang Kabayo Racing,Soft,1:48.954,+0.275,+1.664,Running
+13,7,6,-1,Jamar Henry,Trike Motorsports,Medium,1:51.284,+0.384,+2.048,Running
+13,8,4,-4,Niamh Murphy,Racing Life,Soft,1:51.460,+0.127,+2.174,Running
+13,9,11,2,Liesje Roser,Dacia Racing Team,Soft,1:50.346,+1.904,+4.078,Running
+13,10,9,-1,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:51.337,+0.050,+4.128,Running
+13,11,10,-1,Sydney Aspen,Villiuride Racing,Medium,1:51.298,+1.368,+5.496,Running
+13,12,13,1,Mark Graham,Trike Motorsports,Medium,1:50.543,+1.619,+7.115,Running
+13,13,12,-1,Aida Haque,Icarus,Soft,1:52.142,+0.556,+7.671,Running
+13,14,14,0,Kanno Sora,LFL Engineering,Medium,1:51.068,+0.018,+7.689,Running
+13,15,15,0,Fidan Basak,Pulang Kabayo Racing,Medium,1:50.283,+1.922,+9.612,Running
+13,16,16,0,Monica Niculescu,Dacia Racing Team,Medium,1:51.490,+2.939,+12.550,Running
+13,17,17,0,Clara Longo,Icarus,Hard,1:50.511,+2.111,+14.661,Running
+13,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:52.410,+19.006,+33.667,Running
+14,1,3,2,Berend Boer,Shell Motorsports,Medium,1:49.771,-,-,Running
+14,2,1,-1,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:50.470,+0.469,+0.469,Running
+14,3,6,3,Eli Huertez,Pulang Kabayo Racing,Soft,1:49.832,+0.166,+0.636,Running
+14,4,4,0,Franc Abel,Shell Motorsports,Soft,1:50.407,+0.050,+0.686,Running
+14,5,2,-3,Ye Li,Racing Life,Soft,1:51.617,+0.988,+1.674,Running
+14,6,7,1,Jamar Henry,Trike Motorsports,Medium,1:49.676,+0.050,+1.724,Running
+14,7,8,1,Niamh Murphy,Racing Life,Soft,1:51.607,+2.057,+3.781,Running
+14,8,9,1,Liesje Roser,Dacia Racing Team,Soft,1:49.748,+0.045,+3.826,Running
+14,9,10,1,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:50.335,+0.637,+4.463,Running
+14,10,14,4,Kanno Sora,LFL Engineering,Medium,1:48.964,+2.190,+6.653,Running
+14,11,11,0,Sydney Aspen,Villiuride Racing,Medium,1:51.350,+0.193,+6.846,Running
+14,12,13,1,Aida Haque,Icarus,Soft,1:51.071,+1.717,+8.563,Running
+14,13,12,-1,Mark Graham,Trike Motorsports,Medium,1:51.498,+0.050,+8.613,Running
+14,14,15,1,Fidan Basak,Pulang Kabayo Racing,Medium,1:50.781,+1.779,+10.393,Running
+14,15,16,1,Monica Niculescu,Dacia Racing Team,Medium,1:49.587,+1.744,+12.136,Running
+14,16,17,1,Clara Longo,Icarus,Hard,1:50.446,+2.970,+15.106,Running
+14,17,5,-12,Al Fabet,Villiuride Racing,Medium,1:50.804,+9.086,+24.192,Running
+14,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:50.331,+9.805,+33.998,Running
+15,1,4,3,Franc Abel,Shell Motorsports,Soft,1:50.666,-,-,Running
+15,2,1,-1,Berend Boer,Shell Motorsports,Medium,1:50.183,+0.050,+0.050,Running
+15,3,5,2,Ye Li,Racing Life,Soft,1:49.945,+1.147,+1.197,Running
+15,4,2,-2,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:50.911,+0.050,+1.247,Running
+15,5,6,1,Jamar Henry,Trike Motorsports,Medium,1:50.022,+0.188,+1.435,Running
+15,6,3,-3,Eli Huertez,Pulang Kabayo Racing,Soft,1:51.156,+0.223,+1.658,Running
+15,7,7,0,Niamh Murphy,Racing Life,Soft,1:50.116,+2.105,+3.763,Running
+15,8,8,0,Liesje Roser,Dacia Racing Team,Soft,1:51.629,+1.558,+5.321,Running
+15,9,11,2,Sydney Aspen,Villiuride Racing,Medium,1:49.816,+1.208,+6.529,Running
+15,10,9,-1,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:52.295,+0.095,+6.624,Running
+15,11,13,2,Mark Graham,Trike Motorsports,Medium,1:50.693,+1.592,+8.217,Running
+15,12,10,-2,Kanno Sora,LFL Engineering,Medium,1:51.747,+0.050,+8.267,Running
+15,13,12,-1,Aida Haque,Icarus,Soft,1:51.408,+0.856,+9.122,Running
+15,14,15,1,Monica Niculescu,Dacia Racing Team,Medium,1:49.652,+2.532,+11.655,Running
+15,15,14,-1,Fidan Basak,Pulang Kabayo Racing,Medium,1:51.759,+0.363,+12.018,Running
+15,16,16,0,Clara Longo,Icarus,Hard,1:50.916,+3.871,+15.889,Running
+15,17,17,0,Al Fabet,Villiuride Racing,Medium,1:51.729,+9.899,+25.788,Running
+15,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.861,+9.938,+35.725,Running
+16,1,1,0,Franc Abel,Shell Motorsports,Soft,1:50.893,-,-,Running
+16,2,2,0,Berend Boer,Shell Motorsports,Medium,1:51.238,+0.395,+0.395,Running
+16,3,3,0,Ye Li,Racing Life,Soft,1:50.338,+0.031,+0.426,Running
+16,4,4,0,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:50.122,+0.050,+0.476,Running
+16,5,6,1,Eli Huertez,Pulang Kabayo Racing,Soft,1:50.787,+0.116,+0.592,Running
+16,6,5,-1,Jamar Henry,Trike Motorsports,Medium,1:51.390,+1.340,+1.932,Running
+16,7,7,0,Niamh Murphy,Racing Life,Soft,1:50.355,+1.294,+3.225,Running
+16,8,8,0,Liesje Roser,Dacia Racing Team,Soft,1:50.158,+1.360,+4.586,Running
+16,9,10,1,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:50.740,+1.885,+6.471,Running
+16,10,11,1,Mark Graham,Trike Motorsports,Medium,1:50.072,+0.925,+7.396,Running
+16,11,9,-2,Sydney Aspen,Villiuride Racing,Medium,1:52.341,+0.581,+7.977,Running
+16,12,12,0,Kanno Sora,LFL Engineering,Medium,1:50.785,+0.181,+8.159,Running
+16,13,13,0,Aida Haque,Icarus,Soft,1:50.673,+0.743,+8.902,Running
+16,14,14,0,Monica Niculescu,Dacia Racing Team,Medium,1:51.798,+3.585,+12.487,Running
+16,15,15,0,Fidan Basak,Pulang Kabayo Racing,Medium,1:51.413,+0.050,+12.537,Running
+16,16,16,0,Clara Longo,Icarus,Hard,1:51.950,+4.409,+16.946,Running
+16,17,17,0,Al Fabet,Villiuride Racing,Medium,1:49.585,+7.533,+24.479,Running
+16,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:52.442,+12.795,+37.274,Running
+17,1,2,1,Berend Boer,Shell Motorsports,Medium,1:49.846,-,-,Running
+17,2,4,2,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:51.209,+1.444,+1.444,Running
+17,3,5,2,Eli Huertez,Pulang Kabayo Racing,Soft,1:51.251,+0.158,+1.602,Running
+17,4,3,-1,Ye Li,Racing Life,Soft,1:51.798,+0.382,+1.983,Running
+17,5,6,1,Jamar Henry,Trike Motorsports,Medium,1:51.898,+1.606,+3.589,Running
+17,6,8,2,Liesje Roser,Dacia Racing Team,Soft,1:50.896,+0.633,+4.222,Running
+17,7,7,0,Niamh Murphy,Racing Life,Soft,1:51.287,+0.050,+4.272,Running
+17,8,12,4,Kanno Sora,LFL Engineering,Medium,1:49.605,+2.600,+6.872,Running
+17,9,9,0,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:50.692,+0.050,+6.922,Running
+17,10,10,0,Mark Graham,Trike Motorsports,Medium,1:51.420,+1.654,+8.575,Running
+17,11,11,0,Sydney Aspen,Villiuride Racing,Medium,1:52.463,+1.624,+10.199,Running
+17,12,13,1,Aida Haque,Icarus,Soft,1:51.752,+0.214,+10.413,Running
+17,13,15,2,Fidan Basak,Pulang Kabayo Racing,Medium,1:50.016,+1.900,+12.312,Running
+17,14,14,0,Monica Niculescu,Dacia Racing Team,Medium,1:50.078,+0.011,+12.324,Running
+17,15,16,1,Clara Longo,Icarus,Hard,1:50.788,+5.170,+17.494,Running
+17,16,1,-15,Franc Abel,Shell Motorsports,Hard,1:51.638,+5.904,+23.397,Running
+17,17,17,0,Al Fabet,Villiuride Racing,Medium,1:51.491,+2.332,+25.729,Running
+17,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.447,+12.751,+38.481,Running
+18,1,1,0,Berend Boer,Shell Motorsports,Medium,1:51.157,-,-,Running
+18,2,5,3,Jamar Henry,Trike Motorsports,Medium,1:49.216,+1.455,+1.455,Running
+18,3,3,0,Eli Huertez,Pulang Kabayo Racing,Soft,1:51.060,+0.050,+1.505,Running
+18,4,4,0,Ye Li,Racing Life,Soft,1:51.292,+0.613,+2.118,Running
+18,5,2,-3,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:51.915,+0.083,+2.202,Running
+18,6,6,0,Liesje Roser,Dacia Racing Team,Soft,1:50.696,+1.559,+3.761,Running
+18,7,7,0,Niamh Murphy,Racing Life,Soft,1:52.227,+1.581,+5.342,Running
+18,8,8,0,Kanno Sora,LFL Engineering,Medium,1:51.752,+1.895,+7.237,Running
+18,9,9,0,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:51.522,+0.050,+7.287,Running
+18,10,10,0,Mark Graham,Trike Motorsports,Medium,1:51.219,+0.130,+7.417,Running
+18,11,11,0,Sydney Aspen,Villiuride Racing,Medium,1:50.805,+2.430,+9.847,Running
+18,12,13,1,Fidan Basak,Pulang Kabayo Racing,Medium,1:50.119,+1.428,+11.275,Running
+18,13,14,1,Monica Niculescu,Dacia Racing Team,Medium,1:52.892,+2.784,+14.059,Running
+18,14,15,1,Clara Longo,Icarus,Hard,1:51.106,+3.384,+17.443,Running
+18,15,16,1,Franc Abel,Shell Motorsports,Hard,1:51.451,+6.249,+23.692,Running
+18,16,17,1,Al Fabet,Villiuride Racing,Medium,1:51.531,+2.412,+26.103,Running
+18,17,12,-5,Aida Haque,Icarus,Hard,1:51.813,+6.965,+33.069,Running
+18,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.618,+5.873,+38.942,Running
+19,1,1,0,Berend Boer,Shell Motorsports,Medium,1:50.104,-,-,Running
+19,2,2,0,Jamar Henry,Trike Motorsports,Medium,1:51.745,+3.096,+3.096,Running
+19,3,4,1,Ye Li,Racing Life,Soft,1:52.906,+0.852,+3.948,Running
+19,4,5,1,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:51.900,+0.050,+3.998,Running
+19,5,7,2,Niamh Murphy,Racing Life,Soft,1:51.078,+1.467,+5.465,Running
+19,6,6,0,Liesje Roser,Dacia Racing Team,Soft,1:51.858,+0.050,+5.515,Running
+19,7,9,2,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:50.660,+2.328,+7.843,Running
+19,8,8,0,Kanno Sora,LFL Engineering,Medium,1:50.934,+0.224,+8.067,Running
+19,9,10,1,Mark Graham,Trike Motorsports,Medium,1:50.826,+0.072,+8.139,Running
+19,10,11,1,Sydney Aspen,Villiuride Racing,Medium,1:50.121,+1.725,+9.864,Running
+19,11,12,1,Fidan Basak,Pulang Kabayo Racing,Medium,1:50.381,+1.687,+11.551,Running
+19,12,13,1,Monica Niculescu,Dacia Racing Team,Medium,1:50.736,+3.139,+14.690,Running
+19,13,14,1,Clara Longo,Icarus,Hard,1:50.734,+3.382,+18.072,Running
+19,14,15,1,Franc Abel,Shell Motorsports,Hard,1:52.370,+7.493,+25.565,Running
+19,15,3,-12,Eli Huertez,Pulang Kabayo Racing,Medium,1:52.214,+0.050,+25.615,Running
+19,16,16,0,Al Fabet,Villiuride Racing,Medium,1:51.972,+2.356,+27.971,Running
+19,17,17,0,Aida Haque,Icarus,Hard,1:50.590,+5.583,+33.555,Running
+19,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.342,+6.625,+40.179,Running
+20,1,1,0,Berend Boer,Shell Motorsports,Medium,1:50.718,-,-,Running
+20,2,2,0,Jamar Henry,Trike Motorsports,Medium,1:51.274,+3.652,+3.652,Running
+20,3,4,1,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:50.739,+0.367,+4.019,Running
+20,4,3,-1,Ye Li,Racing Life,Soft,1:51.392,+0.603,+4.622,Running
+20,5,6,1,Liesje Roser,Dacia Racing Team,Soft,1:51.419,+1.456,+6.078,Running
+20,6,5,-1,Niamh Murphy,Racing Life,Soft,1:51.381,+0.050,+6.128,Running
+20,7,7,0,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:50.413,+1.410,+7.538,Running
+20,8,8,0,Kanno Sora,LFL Engineering,Medium,1:51.485,+0.520,+8.058,Running
+20,9,9,0,Mark Graham,Trike Motorsports,Medium,1:50.687,+0.050,+8.108,Running
+20,10,10,0,Sydney Aspen,Villiuride Racing,Medium,1:50.641,+1.679,+9.787,Running
+20,11,11,0,Fidan Basak,Pulang Kabayo Racing,Medium,1:50.446,+1.493,+11.280,Running
+20,12,12,0,Monica Niculescu,Dacia Racing Team,Medium,1:50.431,+3.124,+14.403,Running
+20,13,13,0,Clara Longo,Icarus,Hard,1:50.695,+3.646,+18.049,Running
+20,14,15,1,Eli Huertez,Pulang Kabayo Racing,Medium,1:50.438,+7.286,+25.335,Running
+20,15,14,-1,Franc Abel,Shell Motorsports,Hard,1:50.911,+0.423,+25.758,Running
+20,16,16,0,Al Fabet,Villiuride Racing,Medium,1:51.563,+3.058,+28.816,Running
+20,17,17,0,Aida Haque,Icarus,Hard,1:49.916,+3.937,+32.753,Running
+20,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.605,+8.314,+41.067,Running
+21,1,1,0,Berend Boer,Shell Motorsports,Medium,1:50.657,-,-,Running
+21,2,2,0,Jamar Henry,Trike Motorsports,Medium,1:50.938,+3.932,+3.932,Running
+21,3,3,0,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:51.714,+1.143,+5.076,Running
+21,4,6,2,Niamh Murphy,Racing Life,Soft,1:51.071,+1.467,+6.543,Running
+21,5,4,-1,Ye Li,Racing Life,Soft,1:52.770,+0.193,+6.735,Running
+21,6,8,2,Kanno Sora,LFL Engineering,Medium,1:50.093,+0.650,+7.385,Running
+21,7,5,-2,Liesje Roser,Dacia Racing Team,Soft,1:52.014,+0.050,+7.435,Running
+21,8,7,-1,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:50.794,+0.240,+7.675,Running
+21,9,10,1,Sydney Aspen,Villiuride Racing,Medium,1:51.029,+2.484,+10.159,Running
+21,10,11,1,Fidan Basak,Pulang Kabayo Racing,Medium,1:50.955,+1.419,+11.578,Running
+21,11,12,1,Monica Niculescu,Dacia Racing Team,Medium,1:50.552,+2.721,+14.299,Running
+21,12,13,1,Clara Longo,Icarus,Hard,1:52.495,+5.588,+19.887,Running
+21,13,15,2,Franc Abel,Shell Motorsports,Hard,1:50.953,+6.168,+26.055,Running
+21,14,14,0,Eli Huertez,Pulang Kabayo Racing,Medium,1:51.452,+0.076,+26.131,Running
+21,15,9,-6,Mark Graham,Trike Motorsports,Hard,1:50.223,+3.543,+29.674,Running
+21,16,16,0,Al Fabet,Villiuride Racing,Medium,1:51.580,+0.065,+29.739,Running
+21,17,17,0,Aida Haque,Icarus,Hard,1:51.752,+4.109,+33.848,Running
+21,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:52.206,+8.768,+42.616,Running
+22,1,1,0,Berend Boer,Shell Motorsports,Medium,1:51.760,-,-,Running
+22,2,3,1,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:50.840,+4.156,+4.156,Running
+22,3,8,5,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:49.749,+1.508,+5.664,Running
+22,4,6,2,Kanno Sora,LFL Engineering,Medium,1:50.570,+0.531,+6.196,Running
+22,5,9,4,Sydney Aspen,Villiuride Racing,Medium,1:50.961,+3.164,+9.360,Running
+22,6,10,4,Fidan Basak,Pulang Kabayo Racing,Medium,1:50.718,+1.177,+10.537,Running
+22,7,11,4,Monica Niculescu,Dacia Racing Team,Medium,1:50.836,+2.838,+13.375,Running
+22,8,12,4,Clara Longo,Icarus,Hard,1:52.664,+7.417,+20.791,Running
+22,9,14,5,Eli Huertez,Pulang Kabayo Racing,Medium,1:50.201,+3.781,+24.572,Running
+22,10,2,-8,Jamar Henry,Trike Motorsports,Medium,1:51.506,+0.996,+25.568,Running
+22,11,13,2,Franc Abel,Shell Motorsports,Hard,1:51.323,+0.050,+25.618,Running
+22,12,15,3,Mark Graham,Trike Motorsports,Hard,1:51.127,+2.323,+27.941,Running
+22,13,4,-9,Niamh Murphy,Racing Life,Soft,1:51.208,+0.050,+27.991,Running
+22,14,16,2,Al Fabet,Villiuride Racing,Medium,1:51.440,+1.249,+29.239,Running
+22,15,5,-10,Ye Li,Racing Life,Soft,1:52.314,+0.050,+29.289,Running
+22,16,7,-9,Liesje Roser,Dacia Racing Team,Medium,1:52.556,+0.080,+29.369,Running
+22,17,17,0,Aida Haque,Icarus,Hard,1:51.232,+3.952,+33.321,Running
+22,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:52.534,+10.070,+43.391,Running
+23,1,1,0,Berend Boer,Shell Motorsports,Medium,1:51.242,-,-,Running
+23,2,2,0,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:50.555,+3.469,+3.469,Running
+23,3,3,0,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:50.703,+1.656,+5.125,Running
+23,4,4,0,Kanno Sora,LFL Engineering,Medium,1:53.039,+2.868,+7.992,Running
+23,5,6,1,Fidan Basak,Pulang Kabayo Racing,Medium,1:51.836,+3.138,+11.131,Running
+23,6,7,1,Monica Niculescu,Dacia Racing Team,Medium,1:51.615,+2.617,+13.747,Running
+23,7,8,1,Clara Longo,Icarus,Hard,1:51.429,+7.230,+20.978,Running
+23,8,9,1,Eli Huertez,Pulang Kabayo Racing,Medium,1:50.685,+3.037,+24.014,Running
+23,9,11,2,Franc Abel,Shell Motorsports,Hard,1:51.232,+1.594,+25.608,Running
+23,10,13,3,Niamh Murphy,Racing Life,Soft,1:50.467,+0.450,+26.058,Running
+23,11,10,-1,Jamar Henry,Trike Motorsports,Medium,1:51.782,+0.050,+26.108,Running
+23,12,14,2,Al Fabet,Villiuride Racing,Medium,1:49.951,+1.058,+27.165,Running
+23,13,12,-1,Mark Graham,Trike Motorsports,Hard,1:51.556,+0.733,+27.898,Running
+23,14,15,1,Ye Li,Racing Life,Soft,1:50.316,+0.306,+28.204,Running
+23,15,16,1,Liesje Roser,Dacia Racing Team,Medium,1:50.342,+0.109,+28.313,Running
+23,16,5,-11,Sydney Aspen,Villiuride Racing,Hard,1:51.056,+2.860,+31.174,Running
+23,17,17,0,Aida Haque,Icarus,Hard,1:52.037,+2.942,+34.116,Running
+23,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:52.047,+10.079,+44.195,Running
+24,1,1,0,Berend Boer,Shell Motorsports,Medium,1:50.081,-,-,Running
+24,2,2,0,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:50.564,+3.952,+3.952,Running
+24,3,3,0,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:52.561,+3.653,+7.605,Running
+24,4,4,0,Kanno Sora,LFL Engineering,Medium,1:52.319,+2.626,+10.231,Running
+24,5,5,0,Fidan Basak,Pulang Kabayo Racing,Medium,1:51.315,+2.134,+12.365,Running
+24,6,6,0,Monica Niculescu,Dacia Racing Team,Medium,1:50.161,+1.463,+13.828,Running
+24,7,7,0,Clara Longo,Icarus,Hard,1:52.092,+9.161,+22.988,Running
+24,8,9,1,Franc Abel,Shell Motorsports,Hard,1:49.534,+2.072,+25.060,Running
+24,9,10,1,Niamh Murphy,Racing Life,Soft,1:49.162,+0.078,+25.139,Running
+24,10,8,-2,Eli Huertez,Pulang Kabayo Racing,Medium,1:51.972,+0.767,+25.906,Running
+24,11,14,3,Ye Li,Racing Life,Soft,1:48.866,+1.083,+26.989,Running
+24,12,12,0,Al Fabet,Villiuride Racing,Medium,1:50.072,+0.167,+27.156,Running
+24,13,11,-2,Jamar Henry,Trike Motorsports,Medium,1:51.207,+0.077,+27.233,Running
+24,14,15,1,Liesje Roser,Dacia Racing Team,Medium,1:50.172,+1.171,+28.404,Running
+24,15,13,-2,Mark Graham,Trike Motorsports,Hard,1:52.276,+1.688,+30.093,Running
+24,16,16,0,Sydney Aspen,Villiuride Racing,Hard,1:50.797,+1.797,+31.890,Running
+24,17,17,0,Aida Haque,Icarus,Hard,1:52.608,+4.753,+36.643,Running
+24,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:50.420,+7.891,+44.534,Running
+25,1,1,0,Berend Boer,Shell Motorsports,Medium,1:51.508,-,-,Running
+25,2,2,0,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:51.479,+3.924,+3.924,Running
+25,3,3,0,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:50.450,+2.623,+6.547,Running
+25,4,5,1,Fidan Basak,Pulang Kabayo Racing,Medium,1:51.910,+6.219,+12.766,Running
+25,5,6,1,Monica Niculescu,Dacia Racing Team,Medium,1:52.029,+1.583,+14.349,Running
+25,6,7,1,Clara Longo,Icarus,Hard,1:50.881,+8.012,+22.361,Running
+25,7,8,1,Franc Abel,Shell Motorsports,Hard,1:50.133,+0.518,+22.879,Running
+25,8,9,1,Niamh Murphy,Racing Life,Soft,1:49.298,+0.050,+22.929,Running
+25,9,11,2,Ye Li,Racing Life,Soft,1:49.030,+1.582,+24.511,Running
+25,10,12,2,Al Fabet,Villiuride Racing,Medium,1:50.607,+0.786,+25.297,Running
+25,11,10,-1,Eli Huertez,Pulang Kabayo Racing,Medium,1:50.950,+0.050,+25.347,Running
+25,12,13,1,Jamar Henry,Trike Motorsports,Medium,1:51.502,+1.880,+27.227,Running
+25,13,14,1,Liesje Roser,Dacia Racing Team,Medium,1:50.554,+0.223,+27.450,Running
+25,14,4,-10,Kanno Sora,LFL Engineering,Hard,1:50.310,+3.163,+30.613,Running
+25,15,16,1,Sydney Aspen,Villiuride Racing,Hard,1:50.282,+0.050,+30.663,Running
+25,16,15,-1,Mark Graham,Trike Motorsports,Hard,1:52.539,+0.461,+31.124,Running
+25,17,17,0,Aida Haque,Icarus,Hard,1:50.293,+4.303,+35.427,Running
+25,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.642,+9.241,+44.668,Running
+26,1,1,0,Berend Boer,Shell Motorsports,Medium,1:51.495,-,-,Running
+26,2,3,1,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:50.457,+5.092,+5.092,Running
+26,3,2,-1,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:52.714,+0.050,+5.142,Running
+26,4,5,1,Monica Niculescu,Dacia Racing Team,Medium,1:50.728,+8.439,+13.582,Running
+26,5,7,2,Franc Abel,Shell Motorsports,Hard,1:50.215,+8.016,+21.598,Running
+26,6,9,3,Ye Li,Racing Life,Soft,1:49.391,+0.809,+22.407,Running
+26,7,8,1,Niamh Murphy,Racing Life,Soft,1:51.269,+0.296,+22.703,Running
+26,8,6,-2,Clara Longo,Icarus,Hard,1:52.180,+0.344,+23.046,Running
+26,9,10,1,Al Fabet,Villiuride Racing,Medium,1:50.747,+1.503,+24.549,Running
+26,10,11,1,Eli Huertez,Pulang Kabayo Racing,Medium,1:51.412,+0.715,+25.264,Running
+26,11,13,2,Liesje Roser,Dacia Racing Team,Medium,1:50.089,+0.780,+26.044,Running
+26,12,12,0,Jamar Henry,Trike Motorsports,Medium,1:51.848,+1.535,+27.579,Running
+26,13,16,3,Mark Graham,Trike Motorsports,Hard,1:50.844,+1.945,+29.524,Running
+26,14,14,0,Kanno Sora,LFL Engineering,Hard,1:50.456,+0.050,+29.574,Running
+26,15,15,0,Sydney Aspen,Villiuride Racing,Hard,1:51.368,+0.961,+30.536,Running
+26,16,4,-12,Fidan Basak,Pulang Kabayo Racing,Hard,1:50.911,+3.646,+34.182,Running
+26,17,17,0,Aida Haque,Icarus,Hard,1:51.773,+1.523,+35.705,Running
+26,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.795,+9.263,+44.967,Running
+27,1,1,0,Berend Boer,Shell Motorsports,Medium,1:51.011,-,-,Running
+27,2,2,0,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:50.380,+4.462,+4.462,Running
+27,3,3,0,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:51.025,+0.695,+5.156,Running
+27,4,4,0,Monica Niculescu,Dacia Racing Team,Medium,1:51.344,+8.758,+13.914,Running
+27,5,5,0,Franc Abel,Shell Motorsports,Hard,1:49.103,+5.776,+19.690,Running
+27,6,6,0,Ye Li,Racing Life,Soft,1:50.451,+2.157,+21.847,Running
+27,7,7,0,Niamh Murphy,Racing Life,Soft,1:50.519,+0.363,+22.210,Running
+27,8,8,0,Clara Longo,Icarus,Hard,1:51.679,+1.504,+23.714,Running
+27,9,10,1,Eli Huertez,Pulang Kabayo Racing,Medium,1:50.998,+1.536,+25.251,Running
+27,10,9,-1,Al Fabet,Villiuride Racing,Medium,1:52.141,+0.429,+25.679,Running
+27,11,11,0,Liesje Roser,Dacia Racing Team,Medium,1:50.685,+0.038,+25.717,Running
+27,12,12,0,Jamar Henry,Trike Motorsports,Medium,1:50.005,+0.855,+26.572,Running
+27,13,13,0,Mark Graham,Trike Motorsports,Hard,1:50.498,+2.439,+29.011,Running
+27,14,14,0,Kanno Sora,LFL Engineering,Hard,1:51.681,+1.232,+30.244,Running
+27,15,15,0,Sydney Aspen,Villiuride Racing,Hard,1:50.727,+0.007,+30.251,Running
+27,16,17,1,Aida Haque,Icarus,Hard,1:50.711,+3.964,+34.215,Running
+27,17,16,-1,Fidan Basak,Pulang Kabayo Racing,Hard,1:51.095,+0.050,+34.265,Running
+27,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.910,+11.601,+45.866,Running
+28,1,3,2,Damien Quibuyen,Mercedes AMG Motorsport,Medium,1:50.739,-,-,Running
+28,2,2,0,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:53.719,+2.286,+2.286,Running
+28,3,4,1,Monica Niculescu,Dacia Racing Team,Medium,1:51.669,+7.402,+9.688,Running
+28,4,7,3,Niamh Murphy,Racing Life,Soft,1:49.583,+5.298,+14.986,Running
+28,5,5,0,Franc Abel,Shell Motorsports,Hard,1:51.241,+0.050,+15.036,Running
+28,6,6,0,Ye Li,Racing Life,Soft,1:50.753,+1.669,+16.705,Running
+28,7,1,-6,Berend Boer,Shell Motorsports,Hard,1:52.022,+1.422,+18.127,Running
+28,8,8,0,Clara Longo,Icarus,Hard,1:50.904,+0.596,+18.723,Running
+28,9,11,2,Liesje Roser,Dacia Racing Team,Medium,1:50.829,+1.397,+20.120,Running
+28,10,12,2,Jamar Henry,Trike Motorsports,Medium,1:49.492,+0.050,+20.169,Running
+28,11,10,-1,Al Fabet,Villiuride Racing,Medium,1:50.386,+0.000,+20.170,Running
+28,12,9,-3,Eli Huertez,Pulang Kabayo Racing,Medium,1:51.649,+0.431,+20.601,Running
+28,13,13,0,Mark Graham,Trike Motorsports,Hard,1:50.225,+2.740,+23.341,Running
+28,14,14,0,Kanno Sora,LFL Engineering,Hard,1:50.680,+1.402,+24.743,Running
+28,15,15,0,Sydney Aspen,Villiuride Racing,Hard,1:50.437,+0.050,+24.793,Running
+28,16,16,0,Aida Haque,Icarus,Hard,1:50.744,+4.271,+29.064,Running
+28,17,17,0,Fidan Basak,Pulang Kabayo Racing,Hard,1:51.201,+0.507,+29.571,Running
+28,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.600,+11.999,+41.571,Running
+29,1,2,1,Ananda Chohan,Mercedes AMG Motorsport,Medium,1:51.738,-,-,Running
+29,2,3,1,Monica Niculescu,Dacia Racing Team,Medium,1:52.035,+7.699,+7.699,Running
+29,3,4,1,Niamh Murphy,Racing Life,Soft,1:48.860,+2.123,+9.822,Running
+29,4,5,1,Franc Abel,Shell Motorsports,Hard,1:51.337,+2.158,+11.980,Running
+29,5,6,1,Ye Li,Racing Life,Soft,1:49.349,+0.050,+12.030,Running
+29,6,7,1,Berend Boer,Shell Motorsports,Hard,1:51.035,+3.108,+15.138,Running
+29,7,10,3,Jamar Henry,Trike Motorsports,Medium,1:49.846,+0.853,+15.991,Running
+29,8,9,1,Liesje Roser,Dacia Racing Team,Medium,1:49.968,+0.073,+16.064,Running
+29,9,11,2,Al Fabet,Villiuride Racing,Medium,1:50.823,+0.485,+16.550,Running
+29,10,8,-2,Clara Longo,Icarus,Hard,1:51.900,+0.050,+16.600,Running
+29,11,12,1,Eli Huertez,Pulang Kabayo Racing,Medium,1:51.739,+1.716,+18.316,Running
+29,12,1,-11,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:53.048,+2.708,+21.024,Running
+29,13,13,0,Mark Graham,Trike Motorsports,Hard,1:52.090,+0.383,+21.408,Running
+29,14,15,1,Sydney Aspen,Villiuride Racing,Hard,1:50.729,+0.091,+21.499,Running
+29,15,14,-1,Kanno Sora,LFL Engineering,Hard,1:51.364,+0.585,+22.083,Running
+29,16,17,1,Fidan Basak,Pulang Kabayo Racing,Hard,1:50.749,+4.214,+26.297,Running
+29,17,16,-1,Aida Haque,Icarus,Hard,1:51.708,+0.452,+26.749,Running
+29,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:50.709,+11.508,+38.257,Running
+30,1,2,1,Monica Niculescu,Dacia Racing Team,Medium,1:52.228,-,-,Running
+30,2,3,1,Niamh Murphy,Racing Life,Soft,1:49.786,+0.050,+0.050,Running
+30,3,5,2,Ye Li,Racing Life,Soft,1:48.961,+0.269,+0.319,Running
+30,4,4,0,Franc Abel,Shell Motorsports,Hard,1:49.878,+1.981,+2.300,Running
+30,5,7,2,Jamar Henry,Trike Motorsports,Medium,1:49.622,+3.755,+6.055,Running
+30,6,6,0,Berend Boer,Shell Motorsports,Hard,1:51.234,+0.759,+6.814,Running
+30,7,8,1,Liesje Roser,Dacia Racing Team,Medium,1:51.982,+1.675,+8.488,Running
+30,8,10,2,Clara Longo,Icarus,Hard,1:52.968,+0.774,+9.262,Running
+30,9,9,0,Al Fabet,Villiuride Racing,Medium,1:52.321,+0.050,+9.312,Running
+30,10,11,1,Eli Huertez,Pulang Kabayo Racing,Medium,1:51.648,+1.093,+10.405,Running
+30,11,15,4,Kanno Sora,LFL Engineering,Hard,1:50.175,+1.987,+12.393,Running
+30,12,12,0,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:50.977,+0.050,+12.443,Running
+30,13,13,0,Mark Graham,Trike Motorsports,Hard,1:51.090,+0.207,+12.650,Running
+30,14,14,0,Sydney Aspen,Villiuride Racing,Hard,1:51.219,+0.510,+13.159,Running
+30,15,1,-14,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:53.106,+2.388,+15.547,Running
+30,16,16,0,Fidan Basak,Pulang Kabayo Racing,Hard,1:50.483,+1.502,+17.049,Running
+30,17,17,0,Aida Haque,Icarus,Hard,1:49.909,+0.050,+17.099,Running
+30,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.706,+13.305,+30.404,Running
+31,1,2,1,Niamh Murphy,Racing Life,Soft,1:50.860,-,-,Running
+31,2,3,1,Ye Li,Racing Life,Soft,1:50.646,+0.055,+0.055,Running
+31,3,4,1,Franc Abel,Shell Motorsports,Hard,1:49.831,+1.165,+1.220,Running
+31,4,1,-3,Monica Niculescu,Dacia Racing Team,Medium,1:52.592,+0.462,+1.682,Running
+31,5,6,1,Berend Boer,Shell Motorsports,Hard,1:50.173,+3.976,+5.658,Running
+31,6,5,-1,Jamar Henry,Trike Motorsports,Medium,1:50.563,+0.050,+5.708,Running
+31,7,7,0,Liesje Roser,Dacia Racing Team,Medium,1:50.658,+2.528,+8.236,Running
+31,8,10,2,Eli Huertez,Pulang Kabayo Racing,Medium,1:50.482,+1.741,+9.977,Running
+31,9,9,0,Al Fabet,Villiuride Racing,Medium,1:52.008,+0.432,+10.410,Running
+31,10,8,-2,Clara Longo,Icarus,Hard,1:52.119,+0.061,+10.471,Running
+31,11,12,1,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:51.144,+2.034,+12.505,Running
+31,12,13,1,Mark Graham,Trike Motorsports,Hard,1:50.816,+0.050,+12.555,Running
+31,13,11,-2,Kanno Sora,LFL Engineering,Hard,1:51.496,+0.072,+12.626,Running
+31,14,14,0,Sydney Aspen,Villiuride Racing,Hard,1:50.886,+0.508,+13.135,Running
+31,15,15,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:49.778,+1.281,+14.415,Running
+31,16,16,0,Fidan Basak,Pulang Kabayo Racing,Hard,1:51.181,+2.904,+17.319,Running
+31,17,17,0,Aida Haque,Icarus,Hard,1:51.612,+0.481,+17.800,Running
+31,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.439,+13.132,+30.932,Running
+32,1,1,0,Niamh Murphy,Racing Life,Soft,1:49.941,-,-,Running
+32,2,2,0,Ye Li,Racing Life,Soft,1:51.005,+1.118,+1.118,Running
+32,3,3,0,Franc Abel,Shell Motorsports,Hard,1:50.091,+0.251,+1.369,Running
+32,4,6,2,Jamar Henry,Trike Motorsports,Medium,1:50.128,+4.525,+5.894,Running
+32,5,5,0,Berend Boer,Shell Motorsports,Hard,1:50.311,+0.133,+6.027,Running
+32,6,7,1,Liesje Roser,Dacia Racing Team,Medium,1:50.969,+3.237,+9.264,Running
+32,7,8,1,Eli Huertez,Pulang Kabayo Racing,Medium,1:51.555,+2.327,+11.591,Running
+32,8,10,2,Clara Longo,Icarus,Hard,1:52.343,+0.188,+11.779,Running
+32,9,9,0,Al Fabet,Villiuride Racing,Medium,1:51.361,+0.050,+11.829,Running
+32,10,12,2,Mark Graham,Trike Motorsports,Hard,1:51.320,+1.404,+13.233,Running
+32,11,11,0,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:50.720,+0.050,+13.283,Running
+32,12,14,2,Sydney Aspen,Villiuride Racing,Hard,1:50.890,+0.600,+13.883,Running
+32,13,13,0,Kanno Sora,LFL Engineering,Hard,1:51.654,+0.456,+14.339,Running
+32,14,15,1,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:51.422,+1.557,+15.896,Running
+32,15,16,1,Fidan Basak,Pulang Kabayo Racing,Hard,1:51.045,+2.527,+18.423,Running
+32,16,17,1,Aida Haque,Icarus,Hard,1:52.162,+1.598,+20.021,Running
+32,17,4,-13,Monica Niculescu,Dacia Racing Team,Soft,1:53.979,+7.699,+27.719,Running
+32,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:52.229,+5.500,+33.220,Running
+33,1,1,0,Niamh Murphy,Racing Life,Soft,1:51.023,-,-,Running
+33,2,2,0,Ye Li,Racing Life,Soft,1:49.338,+0.050,+0.050,Running
+33,3,3,0,Franc Abel,Shell Motorsports,Hard,1:51.994,+2.908,+2.958,Running
+33,4,4,0,Jamar Henry,Trike Motorsports,Medium,1:52.012,+3.521,+6.479,Running
+33,5,5,0,Berend Boer,Shell Motorsports,Hard,1:50.907,+0.050,+6.529,Running
+33,6,6,0,Liesje Roser,Dacia Racing Team,Medium,1:50.416,+2.745,+9.274,Running
+33,7,8,1,Clara Longo,Icarus,Hard,1:51.409,+3.509,+12.782,Running
+33,8,7,-1,Eli Huertez,Pulang Kabayo Racing,Medium,1:51.719,+0.067,+12.849,Running
+33,9,10,1,Mark Graham,Trike Motorsports,Hard,1:50.072,+0.050,+12.899,Running
+33,10,9,-1,Al Fabet,Villiuride Racing,Medium,1:51.490,+0.015,+12.914,Running
+33,11,12,1,Sydney Aspen,Villiuride Racing,Hard,1:49.858,+0.422,+13.336,Running
+33,12,11,-1,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:51.544,+1.086,+14.422,Running
+33,13,13,0,Kanno Sora,LFL Engineering,Hard,1:51.848,+1.360,+15.781,Running
+33,14,14,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:50.601,+0.310,+16.091,Running
+33,15,16,1,Aida Haque,Icarus,Hard,1:51.083,+3.612,+19.703,Running
+33,16,15,-1,Fidan Basak,Pulang Kabayo Racing,Hard,1:51.736,+0.050,+19.753,Running
+33,17,17,0,Monica Niculescu,Dacia Racing Team,Soft,1:50.069,+7.630,+27.382,Running
+33,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:50.511,+5.942,+33.324,Running
+34,1,2,1,Ye Li,Racing Life,Soft,1:50.606,-,-,Running
+34,2,1,-1,Niamh Murphy,Racing Life,Soft,1:50.964,+0.308,+0.308,Running
+34,3,3,0,Franc Abel,Shell Motorsports,Hard,1:51.365,+3.358,+3.666,Running
+34,4,4,0,Jamar Henry,Trike Motorsports,Medium,1:51.330,+3.487,+7.153,Running
+34,5,5,0,Berend Boer,Shell Motorsports,Hard,1:51.714,+0.433,+7.586,Running
+34,6,6,0,Liesje Roser,Dacia Racing Team,Medium,1:50.862,+1.893,+9.479,Running
+34,7,8,1,Eli Huertez,Pulang Kabayo Racing,Medium,1:49.520,+2.234,+11.713,Running
+34,8,10,2,Al Fabet,Villiuride Racing,Medium,1:50.665,+1.209,+12.922,Running
+34,9,9,0,Mark Graham,Trike Motorsports,Hard,1:51.259,+0.579,+13.501,Running
+34,10,7,-3,Clara Longo,Icarus,Hard,1:51.482,+0.107,+13.608,Running
+34,11,12,1,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:50.297,+0.454,+14.062,Running
+34,12,13,1,Kanno Sora,LFL Engineering,Hard,1:50.366,+0.520,+14.582,Running
+34,13,11,-2,Sydney Aspen,Villiuride Racing,Hard,1:51.953,+0.050,+14.632,Running
+34,14,14,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:51.550,+2.352,+16.984,Running
+34,15,15,0,Aida Haque,Icarus,Hard,1:51.514,+3.576,+20.561,Running
+34,16,16,0,Fidan Basak,Pulang Kabayo Racing,Hard,1:51.755,+0.291,+20.852,Running
+34,17,17,0,Monica Niculescu,Dacia Racing Team,Soft,1:50.461,+6.335,+27.186,Running
+34,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.114,+6.596,+33.782,Running
+35,1,1,0,Ye Li,Racing Life,Soft,1:51.417,-,-,Running
+35,2,2,0,Niamh Murphy,Racing Life,Soft,1:51.460,+0.350,+0.350,Running
+35,3,3,0,Franc Abel,Shell Motorsports,Hard,1:51.765,+3.663,+4.013,Running
+35,4,4,0,Jamar Henry,Trike Motorsports,Medium,1:51.386,+3.108,+7.121,Running
+35,5,5,0,Berend Boer,Shell Motorsports,Hard,1:51.384,+0.431,+7.552,Running
+35,6,6,0,Liesje Roser,Dacia Racing Team,Medium,1:51.462,+1.971,+9.523,Running
+35,7,8,1,Al Fabet,Villiuride Racing,Medium,1:50.046,+1.334,+10.857,Running
+35,8,7,-1,Eli Huertez,Pulang Kabayo Racing,Medium,1:50.611,+0.050,+10.907,Running
+35,9,13,4,Sydney Aspen,Villiuride Racing,Hard,1:50.542,+2.850,+13.757,Running
+35,10,9,-1,Mark Graham,Trike Motorsports,Hard,1:51.718,+0.045,+13.802,Running
+35,11,11,0,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:51.377,+0.220,+14.022,Running
+35,12,12,0,Kanno Sora,LFL Engineering,Hard,1:52.522,+1.665,+15.687,Running
+35,13,14,1,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:51.400,+1.280,+16.967,Running
+35,14,15,1,Aida Haque,Icarus,Hard,1:50.459,+2.413,+19.380,Running
+35,15,16,1,Fidan Basak,Pulang Kabayo Racing,Hard,1:49.996,+0.050,+19.430,Running
+35,16,17,1,Monica Niculescu,Dacia Racing Team,Soft,1:50.930,+7.268,+26.699,Running
+35,17,10,-7,Clara Longo,Icarus,Soft,1:52.066,+9.558,+36.257,Running
+35,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:52.456,+20.564,+56.821,Running
+36,1,1,0,Ye Li,Racing Life,Soft,1:50.284,-,-,Running
+36,2,2,0,Niamh Murphy,Racing Life,Soft,1:51.172,+1.238,+1.238,Running
+36,3,3,0,Franc Abel,Shell Motorsports,Hard,1:51.002,+3.493,+4.731,Running
+36,4,5,1,Berend Boer,Shell Motorsports,Hard,1:50.498,+3.035,+7.767,Running
+36,5,4,-1,Jamar Henry,Trike Motorsports,Medium,1:51.638,+0.709,+8.475,Running
+36,6,8,2,Eli Huertez,Pulang Kabayo Racing,Medium,1:50.471,+2.119,+10.594,Running
+36,7,6,-1,Liesje Roser,Dacia Racing Team,Medium,1:51.405,+0.050,+10.644,Running
+36,8,9,1,Sydney Aspen,Villiuride Racing,Hard,1:49.661,+1.999,+12.643,Running
+36,9,7,-2,Al Fabet,Villiuride Racing,Medium,1:52.120,+0.050,+12.693,Running
+36,10,10,0,Mark Graham,Trike Motorsports,Hard,1:51.226,+2.051,+14.744,Running
+36,11,11,0,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:51.192,+0.186,+14.930,Running
+36,12,12,0,Kanno Sora,LFL Engineering,Hard,1:51.692,+1.997,+16.927,Running
+36,13,13,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:50.294,+0.050,+16.977,Running
+36,14,15,1,Fidan Basak,Pulang Kabayo Racing,Hard,1:51.748,+3.917,+20.895,Running
+36,15,14,-1,Aida Haque,Icarus,Hard,1:52.144,+0.345,+21.240,Running
+36,16,16,0,Monica Niculescu,Dacia Racing Team,Soft,1:50.432,+5.607,+26.847,Running
+36,17,17,0,Clara Longo,Icarus,Soft,1:50.842,+9.968,+36.815,Running
+36,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.184,+20.906,+57.721,Running
+37,1,1,0,Ye Li,Racing Life,Soft,1:51.744,-,-,Running
+37,2,2,0,Niamh Murphy,Racing Life,Soft,1:51.293,+0.787,+0.787,Running
+37,3,3,0,Franc Abel,Shell Motorsports,Hard,1:49.867,+2.067,+2.855,Running
+37,4,5,1,Jamar Henry,Trike Motorsports,Medium,1:50.128,+4.005,+6.860,Running
+37,5,4,-1,Berend Boer,Shell Motorsports,Hard,1:51.542,+0.705,+7.565,Running
+37,6,7,1,Liesje Roser,Dacia Racing Team,Medium,1:50.426,+1.762,+9.327,Running
+37,7,6,-1,Eli Huertez,Pulang Kabayo Racing,Medium,1:51.602,+1.126,+10.453,Running
+37,8,8,0,Sydney Aspen,Villiuride Racing,Hard,1:51.660,+2.107,+12.559,Running
+37,9,11,2,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:50.195,+0.822,+13.381,Running
+37,10,10,0,Mark Graham,Trike Motorsports,Hard,1:51.624,+1.243,+14.624,Running
+37,11,12,1,Kanno Sora,LFL Engineering,Hard,1:50.780,+1.339,+15.963,Running
+37,12,13,1,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:50.820,+0.091,+16.053,Running
+37,13,15,2,Aida Haque,Icarus,Hard,1:51.062,+4.505,+20.558,Running
+37,14,14,0,Fidan Basak,Pulang Kabayo Racing,Hard,1:52.616,+1.209,+21.767,Running
+37,15,16,1,Monica Niculescu,Dacia Racing Team,Soft,1:51.058,+4.394,+26.161,Running
+37,16,9,-7,Al Fabet,Villiuride Racing,Hard,1:49.975,+6.764,+32.924,Running
+37,17,17,0,Clara Longo,Icarus,Soft,1:49.035,+1.182,+34.106,Running
+37,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.389,+23.260,+57.366,Running
+38,1,1,0,Ye Li,Racing Life,Soft,1:50.255,-,-,Running
+38,2,2,0,Niamh Murphy,Racing Life,Soft,1:49.886,+0.418,+0.418,Running
+38,3,3,0,Franc Abel,Shell Motorsports,Hard,1:52.037,+4.218,+4.636,Running
+38,4,4,0,Jamar Henry,Trike Motorsports,Medium,1:49.884,+1.852,+6.488,Running
+38,5,6,1,Liesje Roser,Dacia Racing Team,Medium,1:50.539,+2.723,+9.211,Running
+38,6,5,-1,Berend Boer,Shell Motorsports,Hard,1:51.952,+0.050,+9.261,Running
+38,7,7,0,Eli Huertez,Pulang Kabayo Racing,Medium,1:51.408,+2.344,+11.606,Running
+38,8,8,0,Sydney Aspen,Villiuride Racing,Hard,1:49.687,+0.385,+11.991,Running
+38,9,9,0,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:51.625,+2.760,+14.751,Running
+38,10,10,0,Mark Graham,Trike Motorsports,Hard,1:52.068,+1.434,+16.185,Running
+38,11,12,1,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:50.436,+0.050,+16.235,Running
+38,12,11,-1,Kanno Sora,LFL Engineering,Hard,1:50.902,+0.152,+16.386,Running
+38,13,14,1,Fidan Basak,Pulang Kabayo Racing,Hard,1:49.858,+4.983,+21.369,Running
+38,14,13,-1,Aida Haque,Icarus,Hard,1:52.468,+1.402,+22.771,Running
+38,15,15,0,Monica Niculescu,Dacia Racing Team,Soft,1:49.794,+2.928,+25.699,Running
+38,16,16,0,Al Fabet,Villiuride Racing,Hard,1:50.834,+7.804,+33.503,Running
+38,17,17,0,Clara Longo,Icarus,Soft,1:50.858,+1.205,+34.709,Running
+38,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:49.963,+22.365,+57.074,Running
+39,1,1,0,Ye Li,Racing Life,Soft,1:51.215,-,-,Running
+39,2,2,0,Niamh Murphy,Racing Life,Soft,1:51.396,+0.600,+0.600,Running
+39,3,3,0,Franc Abel,Shell Motorsports,Hard,1:50.617,+3.439,+4.038,Running
+39,4,4,0,Jamar Henry,Trike Motorsports,Medium,1:51.332,+2.568,+6.606,Running
+39,5,6,1,Berend Boer,Shell Motorsports,Hard,1:50.726,+2.167,+8.772,Running
+39,6,5,-1,Liesje Roser,Dacia Racing Team,Medium,1:51.028,+0.253,+9.025,Running
+39,7,7,0,Eli Huertez,Pulang Kabayo Racing,Medium,1:50.705,+2.071,+11.096,Running
+39,8,8,0,Sydney Aspen,Villiuride Racing,Hard,1:51.254,+0.934,+12.030,Running
+39,9,9,0,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:50.597,+2.102,+14.133,Running
+39,10,10,0,Mark Graham,Trike Motorsports,Hard,1:51.103,+1.940,+16.073,Running
+39,11,12,1,Kanno Sora,LFL Engineering,Hard,1:50.904,+0.002,+16.075,Running
+39,12,11,-1,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:51.650,+0.595,+16.670,Running
+39,13,13,0,Fidan Basak,Pulang Kabayo Racing,Hard,1:52.270,+5.067,+21.736,Running
+39,14,14,0,Aida Haque,Icarus,Hard,1:50.230,+0.050,+21.786,Running
+39,15,15,0,Monica Niculescu,Dacia Racing Team,Soft,1:50.131,+2.829,+24.616,Running
+39,16,17,1,Clara Longo,Icarus,Soft,1:49.939,+8.817,+33.433,Running
+39,17,16,-1,Al Fabet,Villiuride Racing,Hard,1:51.517,+0.373,+33.806,Running
+39,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:50.946,+22.999,+56.805,Running
+40,1,1,0,Ye Li,Racing Life,Soft,1:51.415,-,-,Running
+40,2,2,0,Niamh Murphy,Racing Life,Soft,1:51.790,+0.975,+0.975,Running
+40,3,3,0,Franc Abel,Shell Motorsports,Hard,1:51.332,+2.980,+3.955,Running
+40,4,4,0,Jamar Henry,Trike Motorsports,Medium,1:51.323,+2.558,+6.514,Running
+40,5,5,0,Berend Boer,Shell Motorsports,Hard,1:51.158,+2.001,+8.515,Running
+40,6,6,0,Liesje Roser,Dacia Racing Team,Medium,1:51.802,+0.897,+9.412,Running
+40,7,7,0,Eli Huertez,Pulang Kabayo Racing,Medium,1:51.102,+1.371,+10.783,Running
+40,8,8,0,Sydney Aspen,Villiuride Racing,Hard,1:52.350,+2.182,+12.965,Running
+40,9,9,0,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:50.695,+0.447,+13.412,Running
+40,10,10,0,Mark Graham,Trike Motorsports,Hard,1:51.964,+2.548,+15.961,Running
+40,11,11,0,Kanno Sora,LFL Engineering,Hard,1:51.351,+0.050,+16.011,Running
+40,12,12,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:51.790,+1.033,+17.044,Running
+40,13,14,1,Aida Haque,Icarus,Hard,1:51.490,+4.817,+21.861,Running
+40,14,13,-1,Fidan Basak,Pulang Kabayo Racing,Hard,1:51.569,+0.029,+21.890,Running
+40,15,15,0,Monica Niculescu,Dacia Racing Team,Soft,1:50.379,+1.689,+23.580,Running
+40,16,16,0,Clara Longo,Icarus,Soft,1:50.187,+8.625,+32.205,Running
+40,17,17,0,Al Fabet,Villiuride Racing,Hard,1:51.580,+1.766,+33.971,Running
+40,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:50.429,+21.847,+55.818,Running
+41,1,1,0,Ye Li,Racing Life,Soft,1:50.656,-,-,Running
+41,2,2,0,Niamh Murphy,Racing Life,Soft,1:52.080,+2.399,+2.399,Running
+41,3,3,0,Franc Abel,Shell Motorsports,Hard,1:51.781,+2.681,+5.080,Running
+41,4,4,0,Jamar Henry,Trike Motorsports,Medium,1:50.743,+1.520,+6.600,Running
+41,5,6,1,Liesje Roser,Dacia Racing Team,Medium,1:50.864,+1.800,+8.400,Running
+41,6,5,-1,Berend Boer,Shell Motorsports,Hard,1:50.591,+0.050,+8.450,Running
+41,7,7,0,Eli Huertez,Pulang Kabayo Racing,Medium,1:50.713,+2.390,+10.840,Running
+41,8,8,0,Sydney Aspen,Villiuride Racing,Hard,1:50.417,+1.887,+12.726,Running
+41,9,9,0,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:50.135,+0.165,+12.891,Running
+41,10,10,0,Mark Graham,Trike Motorsports,Hard,1:51.533,+3.946,+16.838,Running
+41,11,11,0,Kanno Sora,LFL Engineering,Hard,1:52.443,+0.960,+17.798,Running
+41,12,12,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:51.743,+0.334,+18.131,Running
+41,13,14,1,Fidan Basak,Pulang Kabayo Racing,Hard,1:51.575,+3.855,+21.986,Running
+41,14,13,-1,Aida Haque,Icarus,Hard,1:50.831,+0.050,+22.036,Running
+41,15,15,0,Monica Niculescu,Dacia Racing Team,Soft,1:50.155,+1.042,+23.078,Running
+41,16,16,0,Clara Longo,Icarus,Soft,1:49.624,+8.094,+31.172,Running
+41,17,17,0,Al Fabet,Villiuride Racing,Hard,1:50.635,+2.778,+33.950,Running
+41,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:50.631,+21.844,+55.793,Running
+42,1,1,0,Ye Li,Racing Life,Soft,1:52.729,-,-,Running
+42,2,2,0,Niamh Murphy,Racing Life,Soft,1:52.237,+1.908,+1.908,Running
+42,3,3,0,Franc Abel,Shell Motorsports,Hard,1:50.268,+0.712,+2.619,Running
+42,4,4,0,Jamar Henry,Trike Motorsports,Medium,1:50.933,+2.185,+4.805,Running
+42,5,5,0,Liesje Roser,Dacia Racing Team,Medium,1:51.134,+2.000,+6.805,Running
+42,6,6,0,Berend Boer,Shell Motorsports,Hard,1:52.098,+1.014,+7.819,Running
+42,7,7,0,Eli Huertez,Pulang Kabayo Racing,Medium,1:50.915,+1.207,+9.026,Running
+42,8,8,0,Sydney Aspen,Villiuride Racing,Hard,1:51.308,+1.764,+10.790,Running
+42,9,9,0,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:50.677,+0.050,+10.840,Running
+42,10,10,0,Mark Graham,Trike Motorsports,Hard,1:49.969,+3.238,+14.078,Running
+42,11,11,0,Kanno Sora,LFL Engineering,Hard,1:50.485,+1.476,+15.554,Running
+42,12,12,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:50.183,+0.032,+15.586,Running
+42,13,13,0,Fidan Basak,Pulang Kabayo Racing,Hard,1:50.297,+3.968,+19.554,Running
+42,14,15,1,Monica Niculescu,Dacia Racing Team,Soft,1:50.537,+1.333,+20.887,Running
+42,15,14,-1,Aida Haque,Icarus,Hard,1:52.908,+1.329,+22.216,Running
+42,16,16,0,Clara Longo,Icarus,Soft,1:51.432,+7.660,+29.876,Running
+42,17,17,0,Al Fabet,Villiuride Racing,Hard,1:50.488,+1.834,+31.709,Running
+42,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.752,+23.108,+54.817,Running
+43,1,1,0,Ye Li,Racing Life,Soft,1:51.303,-,-,Running
+43,2,2,0,Niamh Murphy,Racing Life,Soft,1:51.540,+2.144,+2.144,Running
+43,3,3,0,Franc Abel,Shell Motorsports,Hard,1:51.017,+0.189,+2.334,Running
+43,4,4,0,Jamar Henry,Trike Motorsports,Medium,1:50.229,+1.397,+3.731,Running
+43,5,5,0,Liesje Roser,Dacia Racing Team,Medium,1:50.241,+2.013,+5.743,Running
+43,6,6,0,Berend Boer,Shell Motorsports,Hard,1:50.635,+1.408,+7.151,Running
+43,7,7,0,Eli Huertez,Pulang Kabayo Racing,Medium,1:52.565,+3.137,+10.289,Running
+43,8,9,1,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:50.897,+0.145,+10.434,Running
+43,9,8,-1,Sydney Aspen,Villiuride Racing,Hard,1:51.981,+1.034,+11.468,Running
+43,10,11,1,Kanno Sora,LFL Engineering,Hard,1:50.255,+2.099,+13.566,Running
+43,11,10,-1,Mark Graham,Trike Motorsports,Hard,1:50.841,+0.050,+13.616,Running
+43,12,12,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:51.206,+1.873,+15.489,Running
+43,13,13,0,Fidan Basak,Pulang Kabayo Racing,Hard,1:50.723,+3.485,+18.975,Running
+43,14,14,0,Monica Niculescu,Dacia Racing Team,Soft,1:50.340,+0.950,+19.924,Running
+43,15,15,0,Aida Haque,Icarus,Hard,1:52.146,+3.135,+23.059,Running
+43,16,16,0,Clara Longo,Icarus,Soft,1:50.534,+6.048,+29.107,Running
+43,17,17,0,Al Fabet,Villiuride Racing,Hard,1:50.196,+1.495,+30.602,Running
+43,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.400,+24.312,+54.914,Running
+44,1,3,2,Franc Abel,Shell Motorsports,Hard,1:51.452,-,-,Running
+44,2,4,2,Jamar Henry,Trike Motorsports,Medium,1:50.785,+0.730,+0.730,Running
+44,3,6,3,Berend Boer,Shell Motorsports,Hard,1:50.488,+1.926,+2.656,Running
+44,4,5,1,Liesje Roser,Dacia Racing Team,Medium,1:50.748,+0.050,+2.706,Running
+44,5,8,3,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:50.156,+4.098,+6.804,Running
+44,6,9,3,Sydney Aspen,Villiuride Racing,Hard,1:51.292,+1.984,+8.788,Running
+44,7,7,0,Eli Huertez,Pulang Kabayo Racing,Medium,1:52.335,+0.050,+8.838,Running
+44,8,10,2,Kanno Sora,LFL Engineering,Hard,1:51.159,+2.102,+10.940,Running
+44,9,11,2,Mark Graham,Trike Motorsports,Hard,1:52.254,+1.145,+12.085,Running
+44,10,12,2,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:51.756,+1.375,+13.460,Running
+44,11,13,2,Fidan Basak,Pulang Kabayo Racing,Hard,1:49.917,+1.647,+15.106,Running
+44,12,14,2,Monica Niculescu,Dacia Racing Team,Soft,1:50.820,+1.852,+16.958,Running
+44,13,1,-12,Ye Li,Racing Life,Medium,1:51.621,+2.743,+19.702,Running
+44,14,15,1,Aida Haque,Icarus,Hard,1:50.478,+0.050,+19.752,Running
+44,15,2,-13,Niamh Murphy,Racing Life,Medium,1:52.554,+3.162,+22.913,Running
+44,16,16,0,Clara Longo,Icarus,Soft,1:50.879,+3.287,+26.200,Running
+44,17,17,0,Al Fabet,Villiuride Racing,Hard,1:51.097,+1.714,+27.914,Running
+44,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.517,+24.731,+52.645,Running
+45,1,1,0,Franc Abel,Shell Motorsports,Hard,1:51.090,-,-,Running
+45,2,2,0,Jamar Henry,Trike Motorsports,Medium,1:52.325,+1.965,+1.965,Running
+45,3,3,0,Berend Boer,Shell Motorsports,Hard,1:50.663,+0.264,+2.229,Running
+45,4,4,0,Liesje Roser,Dacia Racing Team,Medium,1:51.990,+1.377,+3.606,Running
+45,5,5,0,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:50.341,+2.449,+6.055,Running
+45,6,7,1,Eli Huertez,Pulang Kabayo Racing,Medium,1:51.330,+2.926,+8.981,Running
+45,7,6,-1,Sydney Aspen,Villiuride Racing,Hard,1:51.333,+0.050,+9.031,Running
+45,8,8,0,Kanno Sora,LFL Engineering,Hard,1:51.082,+1.901,+10.932,Running
+45,9,10,1,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:50.708,+1.378,+12.310,Running
+45,10,9,-1,Mark Graham,Trike Motorsports,Hard,1:51.365,+0.050,+12.360,Running
+45,11,11,0,Fidan Basak,Pulang Kabayo Racing,Hard,1:50.094,+1.750,+14.110,Running
+45,12,12,0,Monica Niculescu,Dacia Racing Team,Soft,1:50.262,+2.020,+16.130,Running
+45,13,13,0,Ye Li,Racing Life,Medium,1:49.837,+2.318,+18.448,Running
+45,14,15,1,Niamh Murphy,Racing Life,Medium,1:49.484,+1.883,+20.331,Running
+45,15,14,-1,Aida Haque,Icarus,Hard,1:51.720,+0.050,+20.381,Running
+45,16,16,0,Clara Longo,Icarus,Soft,1:50.908,+5.637,+26.018,Running
+45,17,17,0,Al Fabet,Villiuride Racing,Hard,1:51.518,+2.324,+28.342,Running
+45,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:50.967,+24.180,+52.522,Running
+46,1,1,0,Franc Abel,Shell Motorsports,Hard,1:51.599,-,-,Running
+46,2,3,1,Berend Boer,Shell Motorsports,Hard,1:50.930,+1.383,+1.383,Running
+46,3,2,-1,Jamar Henry,Trike Motorsports,Medium,1:51.068,+0.050,+1.433,Running
+46,4,4,0,Liesje Roser,Dacia Racing Team,Medium,1:51.172,+1.745,+3.178,Running
+46,5,5,0,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:50.275,+1.552,+4.731,Running
+46,6,6,0,Eli Huertez,Pulang Kabayo Racing,Medium,1:51.592,+4.243,+8.974,Running
+46,7,7,0,Sydney Aspen,Villiuride Racing,Hard,1:52.456,+0.914,+9.888,Running
+46,8,8,0,Kanno Sora,LFL Engineering,Hard,1:51.565,+0.802,+10.690,Running
+46,9,9,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:50.029,+0.050,+10.740,Running
+46,10,10,0,Mark Graham,Trike Motorsports,Hard,1:50.703,+0.108,+10.848,Running
+46,11,12,1,Monica Niculescu,Dacia Racing Team,Soft,1:50.273,+2.818,+13.667,Running
+46,12,11,-1,Fidan Basak,Pulang Kabayo Racing,Hard,1:51.206,+0.050,+13.717,Running
+46,13,13,0,Ye Li,Racing Life,Medium,1:49.725,+2.858,+16.574,Running
+46,14,14,0,Niamh Murphy,Racing Life,Medium,1:50.737,+2.895,+19.470,Running
+46,15,15,0,Aida Haque,Icarus,Hard,1:52.388,+1.701,+21.170,Running
+46,16,16,0,Clara Longo,Icarus,Soft,1:50.567,+3.815,+24.986,Running
+46,17,17,0,Al Fabet,Villiuride Racing,Hard,1:50.490,+2.247,+27.232,Running
+46,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:50.016,+23.707,+50.940,Running
+47,1,1,0,Franc Abel,Shell Motorsports,Hard,1:51.896,-,-,Running
+47,2,2,0,Berend Boer,Shell Motorsports,Hard,1:50.620,+0.107,+0.107,Running
+47,3,4,1,Liesje Roser,Dacia Racing Team,Medium,1:51.195,+2.370,+2.477,Running
+47,4,5,1,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:51.287,+1.644,+4.121,Running
+47,5,9,4,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:50.701,+4.956,+9.077,Running
+47,6,6,0,Eli Huertez,Pulang Kabayo Racing,Medium,1:52.049,+0.050,+9.127,Running
+47,7,8,1,Kanno Sora,LFL Engineering,Hard,1:51.268,+0.935,+10.061,Running
+47,8,7,-1,Sydney Aspen,Villiuride Racing,Hard,1:52.386,+0.317,+10.378,Running
+47,9,10,1,Mark Graham,Trike Motorsports,Hard,1:51.859,+0.433,+10.811,Running
+47,10,12,2,Fidan Basak,Pulang Kabayo Racing,Hard,1:51.062,+2.072,+12.882,Running
+47,11,11,0,Monica Niculescu,Dacia Racing Team,Soft,1:51.427,+0.315,+13.198,Running
+47,12,13,1,Ye Li,Racing Life,Medium,1:51.758,+3.238,+16.436,Running
+47,13,14,1,Niamh Murphy,Racing Life,Medium,1:50.271,+1.408,+17.844,Running
+47,14,15,1,Aida Haque,Icarus,Hard,1:51.232,+2.662,+20.506,Running
+47,15,16,1,Clara Longo,Icarus,Soft,1:51.642,+3.362,+23.868,Running
+47,16,3,-13,Jamar Henry,Trike Motorsports,Hard,1:52.381,+0.050,+23.918,Running
+47,17,17,0,Al Fabet,Villiuride Racing,Hard,1:51.067,+2.484,+26.403,Running
+47,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:52.599,+25.239,+51.642,Running
+48,1,2,1,Berend Boer,Shell Motorsports,Hard,1:49.619,-,-,Running
+48,2,1,-1,Franc Abel,Shell Motorsports,Hard,1:50.574,+0.847,+0.847,Running
+48,3,3,0,Liesje Roser,Dacia Racing Team,Medium,1:50.066,+1.970,+2.817,Running
+48,4,4,0,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:51.419,+2.997,+5.814,Running
+48,5,5,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:49.255,+2.792,+8.605,Running
+48,6,6,0,Eli Huertez,Pulang Kabayo Racing,Medium,1:51.793,+2.588,+11.193,Running
+48,7,8,1,Sydney Aspen,Villiuride Racing,Hard,1:51.303,+0.045,+11.238,Running
+48,8,7,-1,Kanno Sora,LFL Engineering,Hard,1:50.953,+0.050,+11.288,Running
+48,9,9,0,Mark Graham,Trike Motorsports,Hard,1:51.801,+1.598,+12.885,Running
+48,10,10,0,Fidan Basak,Pulang Kabayo Racing,Hard,1:51.691,+1.465,+14.351,Running
+48,11,11,0,Monica Niculescu,Dacia Racing Team,Soft,1:50.930,+0.050,+14.401,Running
+48,12,13,1,Niamh Murphy,Racing Life,Medium,1:49.791,+3.507,+17.908,Running
+48,13,12,-1,Ye Li,Racing Life,Medium,1:51.733,+0.534,+18.442,Running
+48,14,14,0,Aida Haque,Icarus,Hard,1:50.791,+3.129,+21.571,Running
+48,15,15,0,Clara Longo,Icarus,Soft,1:50.695,+3.265,+24.836,Running
+48,16,16,0,Jamar Henry,Trike Motorsports,Hard,1:50.813,+0.169,+25.005,Running
+48,17,17,0,Al Fabet,Villiuride Racing,Hard,1:50.124,+1.795,+26.800,Running
+48,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.478,+26.593,+53.393,Running
+49,1,1,0,Berend Boer,Shell Motorsports,Hard,1:50.596,-,-,Running
+49,2,2,0,Franc Abel,Shell Motorsports,Hard,1:50.824,+1.075,+1.075,Running
+49,3,3,0,Liesje Roser,Dacia Racing Team,Medium,1:52.385,+3.531,+4.606,Running
+49,4,4,0,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:51.150,+1.762,+6.368,Running
+49,5,5,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:51.794,+3.436,+9.803,Running
+49,6,7,1,Sydney Aspen,Villiuride Racing,Hard,1:50.732,+1.570,+11.374,Running
+49,7,8,1,Kanno Sora,LFL Engineering,Hard,1:52.654,+1.972,+13.346,Running
+49,8,6,-2,Eli Huertez,Pulang Kabayo Racing,Medium,1:53.605,+0.710,+14.056,Running
+49,9,9,0,Mark Graham,Trike Motorsports,Hard,1:51.817,+0.050,+14.106,Running
+49,10,11,1,Monica Niculescu,Dacia Racing Team,Soft,1:50.402,+0.046,+14.152,Running
+49,11,10,-1,Fidan Basak,Pulang Kabayo Racing,Hard,1:52.286,+1.889,+16.040,Running
+49,12,12,0,Niamh Murphy,Racing Life,Medium,1:50.459,+1.130,+17.170,Running
+49,13,13,0,Ye Li,Racing Life,Medium,1:49.375,+0.050,+17.220,Running
+49,14,15,1,Clara Longo,Icarus,Soft,1:49.522,+6.108,+23.328,Running
+49,15,14,-1,Aida Haque,Icarus,Hard,1:52.403,+0.050,+23.378,Running
+49,16,17,1,Al Fabet,Villiuride Racing,Hard,1:50.258,+2.312,+25.690,Running
+49,17,16,-1,Jamar Henry,Trike Motorsports,Hard,1:51.331,+0.050,+25.740,Running
+49,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.094,+28.151,+53.891,Running
+50,1,1,0,Berend Boer,Shell Motorsports,Hard,1:50.266,-,-,Running
+50,2,2,0,Franc Abel,Shell Motorsports,Hard,1:49.621,+0.429,+0.429,Running
+50,3,3,0,Liesje Roser,Dacia Racing Team,Medium,1:52.347,+6.257,+6.687,Running
+50,4,4,0,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:51.738,+1.152,+7.839,Running
+50,5,6,1,Sydney Aspen,Villiuride Racing,Hard,1:50.117,+3.039,+10.878,Running
+50,6,5,-1,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:51.391,+0.050,+10.928,Running
+50,7,7,0,Kanno Sora,LFL Engineering,Hard,1:50.725,+2.876,+13.804,Running
+50,8,9,1,Mark Graham,Trike Motorsports,Hard,1:51.968,+2.004,+15.808,Running
+50,9,10,1,Monica Niculescu,Dacia Racing Team,Soft,1:52.087,+0.165,+15.973,Running
+50,10,12,2,Niamh Murphy,Racing Life,Medium,1:49.215,+0.146,+16.119,Running
+50,11,11,0,Fidan Basak,Pulang Kabayo Racing,Hard,1:51.558,+1.213,+17.332,Running
+50,12,13,1,Ye Li,Racing Life,Medium,1:51.686,+1.308,+18.640,Running
+50,13,14,1,Clara Longo,Icarus,Soft,1:50.790,+5.212,+23.852,Running
+50,14,17,3,Jamar Henry,Trike Motorsports,Hard,1:50.145,+1.767,+25.619,Running
+50,15,15,0,Aida Haque,Icarus,Hard,1:52.684,+0.176,+25.795,Running
+50,16,16,0,Al Fabet,Villiuride Racing,Hard,1:51.764,+1.392,+27.187,Running
+50,17,8,-9,Eli Huertez,Pulang Kabayo Racing,Medium,1:52.988,+11.591,+38.778,Running
+50,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.107,+15.954,+54.732,Running
+51,1,1,0,Berend Boer,Shell Motorsports,Hard,1:50.431,-,-,Running
+51,2,2,0,Franc Abel,Shell Motorsports,Hard,1:51.554,+1.552,+1.552,Running
+51,3,4,1,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:52.267,+7.078,+8.630,Running
+51,4,3,-1,Liesje Roser,Dacia Racing Team,Medium,1:52.425,+0.050,+8.680,Running
+51,5,6,1,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:51.998,+3.815,+12.495,Running
+51,6,5,-1,Sydney Aspen,Villiuride Racing,Hard,1:52.412,+0.364,+12.859,Running
+51,7,7,0,Kanno Sora,LFL Engineering,Hard,1:52.972,+3.485,+16.345,Running
+51,8,10,2,Niamh Murphy,Racing Life,Medium,1:51.634,+0.977,+17.322,Running
+51,9,8,-1,Mark Graham,Trike Motorsports,Hard,1:53.193,+0.186,+17.508,Running
+51,10,9,-1,Monica Niculescu,Dacia Racing Team,Soft,1:52.017,+0.050,+17.558,Running
+51,11,11,0,Fidan Basak,Pulang Kabayo Racing,Hard,1:52.409,+1.752,+19.310,Running
+51,12,12,0,Ye Li,Racing Life,Medium,1:51.938,+0.837,+20.147,Running
+51,13,13,0,Clara Longo,Icarus,Soft,1:51.369,+4.643,+24.789,Running
+51,14,14,0,Jamar Henry,Trike Motorsports,Hard,1:50.115,+0.514,+25.303,Running
+51,15,16,1,Al Fabet,Villiuride Racing,Hard,1:50.431,+1.884,+27.187,Running
+51,16,15,-1,Aida Haque,Icarus,Hard,1:52.365,+0.541,+27.729,Running
+51,17,17,0,Eli Huertez,Pulang Kabayo Racing,Medium,1:50.992,+11.610,+39.338,Running
+51,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.408,+16.370,+55.708,Running
+52,1,1,0,Berend Boer,Shell Motorsports,Hard,1:50.869,-,-,Running
+52,2,2,0,Franc Abel,Shell Motorsports,Hard,1:51.452,+2.135,+2.135,Running
+52,3,3,0,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:51.501,+7.127,+9.262,Running
+52,4,5,1,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:50.273,+1.577,+10.839,Running
+52,5,4,-1,Liesje Roser,Dacia Racing Team,Medium,1:53.078,+0.050,+10.889,Running
+52,6,6,0,Sydney Aspen,Villiuride Racing,Hard,1:51.426,+2.527,+13.416,Running
+52,7,8,1,Niamh Murphy,Racing Life,Medium,1:49.558,+2.595,+16.011,Running
+52,8,7,-1,Kanno Sora,LFL Engineering,Hard,1:51.576,+1.041,+17.052,Running
+52,9,9,0,Mark Graham,Trike Motorsports,Hard,1:50.466,+0.054,+17.106,Running
+52,10,11,1,Fidan Basak,Pulang Kabayo Racing,Hard,1:52.142,+2.547,+19.652,Running
+52,11,10,-1,Monica Niculescu,Dacia Racing Team,Soft,1:53.013,+0.050,+19.702,Running
+52,12,12,0,Ye Li,Racing Life,Medium,1:51.379,+0.955,+20.657,Running
+52,13,13,0,Clara Longo,Icarus,Soft,1:51.393,+4.656,+25.313,Running
+52,14,14,0,Jamar Henry,Trike Motorsports,Hard,1:51.026,+0.147,+25.459,Running
+52,15,15,0,Al Fabet,Villiuride Racing,Hard,1:51.979,+2.837,+28.297,Running
+52,16,16,0,Aida Haque,Icarus,Hard,1:52.557,+1.120,+29.417,Running
+52,17,17,0,Eli Huertez,Pulang Kabayo Racing,Medium,1:50.368,+9.421,+38.838,Running
+52,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.890,+17.892,+56.730,Running
+53,1,1,0,Berend Boer,Shell Motorsports,Hard,1:49.964,-,-,Running
+53,2,2,0,Franc Abel,Shell Motorsports,Hard,1:51.112,+3.283,+3.283,Running
+53,3,3,0,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:50.239,+6.254,+9.537,Running
+53,4,4,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:51.380,+2.718,+12.255,Running
+53,5,5,0,Liesje Roser,Dacia Racing Team,Medium,1:52.120,+0.790,+13.045,Running
+53,6,6,0,Sydney Aspen,Villiuride Racing,Hard,1:51.477,+1.885,+14.929,Running
+53,7,8,1,Kanno Sora,LFL Engineering,Hard,1:50.336,+2.495,+17.424,Running
+53,8,9,1,Mark Graham,Trike Motorsports,Hard,1:50.543,+0.261,+17.685,Running
+53,9,7,-2,Niamh Murphy,Racing Life,Medium,1:52.812,+1.174,+18.859,Running
+53,10,10,0,Fidan Basak,Pulang Kabayo Racing,Hard,1:51.292,+2.122,+20.981,Running
+53,11,11,0,Monica Niculescu,Dacia Racing Team,Soft,1:53.071,+0.809,+21.790,Running
+53,12,12,0,Ye Li,Racing Life,Medium,1:51.147,+0.050,+21.840,Running
+53,13,14,1,Jamar Henry,Trike Motorsports,Hard,1:50.994,+4.650,+26.490,Running
+53,14,13,-1,Clara Longo,Icarus,Soft,1:52.485,+1.344,+27.834,Running
+53,15,15,0,Al Fabet,Villiuride Racing,Hard,1:51.407,+1.906,+29.740,Running
+53,16,16,0,Aida Haque,Icarus,Hard,1:53.478,+3.191,+32.931,Running
+53,17,17,0,Eli Huertez,Pulang Kabayo Racing,Medium,1:50.850,+6.793,+39.724,Running
+53,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.376,+18.418,+58.142,Running
+54,1,1,0,Berend Boer,Shell Motorsports,Hard,1:50.699,-,-,Running
+54,2,3,1,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:51.700,+10.538,+10.538,Running
+54,3,4,1,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:50.495,+1.512,+12.050,Running
+54,4,6,2,Sydney Aspen,Villiuride Racing,Hard,1:51.178,+3.358,+15.408,Running
+54,5,7,2,Kanno Sora,LFL Engineering,Hard,1:50.457,+1.774,+17.182,Running
+54,6,9,3,Niamh Murphy,Racing Life,Medium,1:51.076,+2.054,+19.236,Running
+54,7,10,3,Fidan Basak,Pulang Kabayo Racing,Hard,1:51.156,+2.202,+21.438,Running
+54,8,12,4,Ye Li,Racing Life,Medium,1:50.537,+0.240,+21.678,Running
+54,9,2,-7,Franc Abel,Shell Motorsports,Soft,1:51.201,+4.107,+25.784,Running
+54,10,13,3,Jamar Henry,Trike Motorsports,Hard,1:50.770,+0.776,+26.561,Running
+54,11,14,3,Clara Longo,Icarus,Soft,1:51.484,+2.058,+28.619,Running
+54,12,15,3,Al Fabet,Villiuride Racing,Hard,1:51.361,+1.782,+30.401,Running
+54,13,16,3,Aida Haque,Icarus,Hard,1:51.490,+3.321,+33.722,Running
+54,14,5,-9,Liesje Roser,Dacia Racing Team,Medium,1:53.088,+3.712,+37.433,Running
+54,15,8,-7,Mark Graham,Trike Motorsports,Medium,1:50.912,+2.464,+39.897,Running
+54,16,17,1,Eli Huertez,Pulang Kabayo Racing,Medium,1:50.968,+0.095,+39.992,Running
+54,17,11,-6,Monica Niculescu,Dacia Racing Team,Medium,1:51.761,+4.859,+44.852,Running
+54,18,18,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.544,+14.134,+58.986,Running
+55,1,1,0,Berend Boer,Shell Motorsports,Hard,1:52.561,-,-,Running
+55,2,2,0,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:52.143,+10.120,+10.120,Running
+55,3,4,1,Sydney Aspen,Villiuride Racing,Hard,1:50.158,+2.885,+13.005,Running
+55,4,6,2,Niamh Murphy,Racing Life,Medium,1:50.276,+3.313,+16.318,Running
+55,5,5,0,Kanno Sora,LFL Engineering,Hard,1:51.747,+0.050,+16.368,Running
+55,6,7,1,Fidan Basak,Pulang Kabayo Racing,Hard,1:51.057,+3.566,+19.934,Running
+55,7,8,1,Ye Li,Racing Life,Medium,1:51.656,+0.839,+20.773,Running
+55,8,9,1,Franc Abel,Shell Motorsports,Soft,1:50.386,+2.836,+23.610,Running
+55,9,10,1,Jamar Henry,Trike Motorsports,Hard,1:51.198,+1.588,+25.198,Running
+55,10,12,2,Al Fabet,Villiuride Racing,Hard,1:50.444,+3.087,+28.284,Running
+55,11,11,0,Clara Longo,Icarus,Soft,1:53.288,+1.062,+29.346,Running
+55,12,13,1,Aida Haque,Icarus,Hard,1:53.415,+5.230,+34.576,Running
+55,13,15,2,Mark Graham,Trike Motorsports,Medium,1:49.416,+1.400,+35.977,Running
+55,14,14,0,Liesje Roser,Dacia Racing Team,Medium,1:51.154,+0.050,+36.027,Running
+55,15,16,1,Eli Huertez,Pulang Kabayo Racing,Medium,1:51.446,+2.851,+38.878,Running
+55,16,17,1,Monica Niculescu,Dacia Racing Team,Medium,1:50.584,+3.997,+42.875,Running
+55,17,18,1,Aleksa Kozlov,LFL Engineering,Hard,1:50.984,+14.534,+57.409,Running
+55,18,3,-15,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:50.495,+1.512,+12.050,Mechanical failure on lap 55
+56,1,1,0,Berend Boer,Shell Motorsports,Hard,1:50.320,-,-,Running
+56,2,2,0,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:51.459,+11.259,+11.259,Running
+56,3,4,1,Niamh Murphy,Racing Life,Medium,1:50.654,+5.393,+16.652,Running
+56,4,5,1,Kanno Sora,LFL Engineering,Hard,1:52.626,+2.022,+18.673,Running
+56,5,7,2,Ye Li,Racing Life,Medium,1:51.786,+2.600,+21.274,Running
+56,6,6,0,Fidan Basak,Pulang Kabayo Racing,Hard,1:51.710,+0.050,+21.324,Running
+56,7,8,1,Franc Abel,Shell Motorsports,Soft,1:51.060,+3.027,+24.350,Running
+56,8,9,1,Jamar Henry,Trike Motorsports,Hard,1:52.309,+2.837,+27.187,Running
+56,9,10,1,Al Fabet,Villiuride Racing,Hard,1:51.673,+2.451,+29.637,Running
+56,10,11,1,Clara Longo,Icarus,Soft,1:53.302,+2.691,+32.328,Running
+56,11,14,3,Liesje Roser,Dacia Racing Team,Medium,1:50.182,+3.327,+35.655,Running
+56,12,3,-9,Sydney Aspen,Villiuride Racing,Soft,1:51.020,+0.050,+35.705,Running
+56,13,12,-1,Aida Haque,Icarus,Hard,1:51.781,+0.133,+35.838,Running
+56,14,13,-1,Mark Graham,Trike Motorsports,Medium,1:51.829,+1.647,+37.485,Running
+56,15,15,0,Eli Huertez,Pulang Kabayo Racing,Medium,1:50.613,+1.685,+39.171,Running
+56,16,16,0,Monica Niculescu,Dacia Racing Team,Medium,1:50.311,+3.695,+42.866,Running
+56,17,17,0,Aleksa Kozlov,LFL Engineering,Hard,1:49.571,+13.794,+56.660,Running
+56,18,18,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:50.495,+1.512,+12.050,Mechanical failure on lap 55
+57,1,1,0,Berend Boer,Shell Motorsports,Hard,1:50.665,-,-,Running
+57,2,2,0,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:52.017,+12.611,+12.611,Running
+57,3,3,0,Niamh Murphy,Racing Life,Medium,1:49.729,+3.105,+15.715,Running
+57,4,4,0,Kanno Sora,LFL Engineering,Hard,1:50.738,+3.031,+18.747,Running
+57,5,5,0,Ye Li,Racing Life,Medium,1:49.707,+1.569,+20.316,Running
+57,6,6,0,Fidan Basak,Pulang Kabayo Racing,Hard,1:49.785,+0.128,+20.444,Running
+57,7,7,0,Franc Abel,Shell Motorsports,Soft,1:50.755,+3.996,+24.440,Running
+57,8,8,0,Jamar Henry,Trike Motorsports,Hard,1:51.504,+3.585,+28.025,Running
+57,9,9,0,Al Fabet,Villiuride Racing,Hard,1:51.975,+2.922,+30.947,Running
+57,10,10,0,Clara Longo,Icarus,Soft,1:52.562,+3.278,+34.225,Running
+57,11,12,1,Sydney Aspen,Villiuride Racing,Soft,1:51.173,+1.987,+36.213,Running
+57,12,11,-1,Liesje Roser,Dacia Racing Team,Medium,1:51.365,+0.142,+36.355,Running
+57,13,13,0,Aida Haque,Icarus,Hard,1:52.419,+1.238,+37.592,Running
+57,14,15,1,Eli Huertez,Pulang Kabayo Racing,Medium,1:50.043,+0.424,+38.016,Running
+57,15,14,-1,Mark Graham,Trike Motorsports,Medium,1:51.246,+0.050,+38.066,Running
+57,16,16,0,Monica Niculescu,Dacia Racing Team,Medium,1:50.743,+4.878,+42.944,Running
+57,17,17,0,Aleksa Kozlov,LFL Engineering,Hard,1:50.807,+13.858,+56.802,Running
+57,18,18,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:50.495,+1.512,+12.050,Mechanical failure on lap 55
+58,1,1,0,Berend Boer,Shell Motorsports,Hard,1:50.672,-,-,Running
+58,2,2,0,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:51.051,+12.989,+12.989,Running
+58,3,3,0,Niamh Murphy,Racing Life,Medium,1:50.135,+2.190,+15.179,Running
+58,4,5,1,Ye Li,Racing Life,Medium,1:50.132,+4.597,+19.776,Running
+58,5,4,-1,Kanno Sora,LFL Engineering,Hard,1:52.459,+0.758,+20.534,Running
+58,6,6,0,Fidan Basak,Pulang Kabayo Racing,Hard,1:51.126,+0.363,+20.898,Running
+58,7,7,0,Franc Abel,Shell Motorsports,Soft,1:50.770,+3.641,+24.539,Running
+58,8,8,0,Jamar Henry,Trike Motorsports,Hard,1:51.159,+3.973,+28.512,Running
+58,9,9,0,Al Fabet,Villiuride Racing,Hard,1:50.534,+2.298,+30.810,Running
+58,10,11,1,Sydney Aspen,Villiuride Racing,Soft,1:50.171,+4.902,+35.712,Running
+58,11,10,-1,Clara Longo,Icarus,Soft,1:54.387,+1.285,+36.996,Running
+58,12,12,0,Liesje Roser,Dacia Racing Team,Medium,1:51.364,+0.050,+37.046,Running
+58,13,15,2,Mark Graham,Trike Motorsports,Medium,1:51.096,+1.015,+38.061,Running
+58,14,14,0,Eli Huertez,Pulang Kabayo Racing,Medium,1:50.767,+0.050,+38.111,Running
+58,15,13,-2,Aida Haque,Icarus,Hard,1:53.270,+2.078,+40.190,Running
+58,16,16,0,Monica Niculescu,Dacia Racing Team,Medium,1:51.354,+3.436,+43.626,Running
+58,17,17,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.575,+14.078,+57.704,Running
+58,18,18,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:50.495,+1.512,+12.050,Mechanical failure on lap 55
+59,1,1,0,Berend Boer,Shell Motorsports,Hard,1:51.060,-,-,Running
+59,2,2,0,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:52.143,+14.073,+14.073,Running
+59,3,3,0,Niamh Murphy,Racing Life,Medium,1:50.348,+0.394,+14.467,Running
+59,4,5,1,Kanno Sora,LFL Engineering,Hard,1:51.032,+5.481,+19.948,Running
+59,5,4,-1,Ye Li,Racing Life,Medium,1:51.282,+0.050,+19.998,Running
+59,6,6,0,Fidan Basak,Pulang Kabayo Racing,Hard,1:51.053,+0.893,+20.891,Running
+59,7,7,0,Franc Abel,Shell Motorsports,Soft,1:51.325,+3.913,+24.804,Running
+59,8,8,0,Jamar Henry,Trike Motorsports,Hard,1:51.864,+4.512,+29.316,Running
+59,9,9,0,Al Fabet,Villiuride Racing,Hard,1:51.943,+2.377,+31.693,Running
+59,10,12,2,Liesje Roser,Dacia Racing Team,Medium,1:50.292,+4.191,+35.884,Running
+59,11,10,-1,Sydney Aspen,Villiuride Racing,Soft,1:51.282,+0.050,+35.934,Running
+59,12,13,1,Mark Graham,Trike Motorsports,Medium,1:50.664,+1.732,+37.666,Running
+59,13,14,1,Eli Huertez,Pulang Kabayo Racing,Medium,1:50.786,+0.171,+37.837,Running
+59,14,11,-3,Clara Longo,Icarus,Soft,1:55.017,+3.116,+40.954,Running
+59,15,16,1,Monica Niculescu,Dacia Racing Team,Medium,1:51.268,+1.811,+42.765,Running
+59,16,15,-1,Aida Haque,Icarus,Hard,1:53.685,+0.050,+42.815,Running
+59,17,17,0,Aleksa Kozlov,LFL Engineering,Hard,1:50.780,+14.609,+57.424,Running
+59,18,18,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:50.495,+1.512,+12.050,Mechanical failure on lap 55
+60,1,1,0,Berend Boer,Shell Motorsports,Hard,1:51.960,-,-,Running
+60,2,2,0,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:50.905,+13.018,+13.018,Running
+60,3,3,0,Niamh Murphy,Racing Life,Medium,1:50.721,+0.210,+13.228,Running
+60,4,5,1,Ye Li,Racing Life,Medium,1:50.551,+5.362,+18.590,Running
+60,5,4,-1,Kanno Sora,LFL Engineering,Hard,1:51.891,+1.289,+19.879,Running
+60,6,6,0,Fidan Basak,Pulang Kabayo Racing,Hard,1:51.300,+0.352,+20.231,Running
+60,7,7,0,Franc Abel,Shell Motorsports,Soft,1:50.827,+3.441,+23.671,Running
+60,8,8,0,Jamar Henry,Trike Motorsports,Hard,1:51.872,+5.556,+29.227,Running
+60,9,9,0,Al Fabet,Villiuride Racing,Hard,1:51.090,+1.595,+30.822,Running
+60,10,11,1,Sydney Aspen,Villiuride Racing,Soft,1:49.496,+2.647,+33.469,Running
+60,11,13,2,Eli Huertez,Pulang Kabayo Racing,Medium,1:49.946,+2.354,+35.824,Running
+60,12,10,-2,Liesje Roser,Dacia Racing Team,Medium,1:52.124,+0.224,+36.048,Running
+60,13,12,-1,Mark Graham,Trike Motorsports,Medium,1:52.178,+1.836,+37.884,Running
+60,14,15,1,Monica Niculescu,Dacia Racing Team,Medium,1:50.762,+3.682,+41.566,Running
+60,15,14,-1,Clara Longo,Icarus,Soft,1:54.620,+2.047,+43.613,Running
+60,16,16,0,Aida Haque,Icarus,Hard,1:53.100,+0.341,+43.955,Running
+60,17,17,0,Aleksa Kozlov,LFL Engineering,Hard,1:50.535,+12.044,+55.999,Running
+60,18,18,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:50.495,+1.512,+12.050,Mechanical failure on lap 55
+61,1,1,0,Berend Boer,Shell Motorsports,Hard,1:49.684,-,-,Running
+61,2,3,1,Niamh Murphy,Racing Life,Medium,1:51.046,+14.274,+14.274,Running
+61,3,2,-1,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:50.990,+0.050,+14.324,Running
+61,4,4,0,Ye Li,Racing Life,Medium,1:50.655,+5.237,+19.561,Running
+61,5,6,1,Fidan Basak,Pulang Kabayo Racing,Hard,1:51.314,+2.299,+21.860,Running
+61,6,7,1,Franc Abel,Shell Motorsports,Soft,1:49.358,+0.728,+22.588,Running
+61,7,5,-2,Kanno Sora,LFL Engineering,Hard,1:52.443,+0.050,+22.638,Running
+61,8,8,0,Jamar Henry,Trike Motorsports,Hard,1:52.188,+9.094,+31.732,Running
+61,9,9,0,Al Fabet,Villiuride Racing,Hard,1:50.802,+0.208,+31.940,Running
+61,10,10,0,Sydney Aspen,Villiuride Racing,Soft,1:50.101,+1.946,+33.886,Running
+61,11,12,1,Liesje Roser,Dacia Racing Team,Medium,1:50.547,+2.947,+36.833,Running
+61,12,11,-1,Eli Huertez,Pulang Kabayo Racing,Medium,1:50.744,+0.050,+36.883,Running
+61,13,13,0,Mark Graham,Trike Motorsports,Medium,1:50.374,+1.691,+38.575,Running
+61,14,14,0,Monica Niculescu,Dacia Racing Team,Medium,1:51.453,+4.761,+43.336,Running
+61,15,16,1,Aida Haque,Icarus,Hard,1:51.515,+2.450,+45.785,Running
+61,16,15,-1,Clara Longo,Icarus,Soft,1:56.336,+4.480,+50.266,Running
+61,17,17,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.939,+7.987,+58.253,Running
+61,18,18,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:50.495,+1.512,+12.050,Mechanical failure on lap 55
+62,1,1,0,Berend Boer,Shell Motorsports,Hard,1:53.063,-,-,Running
+62,2,3,1,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:50.514,+11.774,+11.774,Running
+62,3,2,-1,Niamh Murphy,Racing Life,Medium,1:52.350,+1.786,+13.560,Running
+62,4,4,0,Ye Li,Racing Life,Medium,1:50.264,+3.201,+16.761,Running
+62,5,6,1,Franc Abel,Shell Motorsports,Soft,1:49.993,+2.756,+19.517,Running
+62,6,5,-1,Fidan Basak,Pulang Kabayo Racing,Hard,1:51.820,+1.100,+20.617,Running
+62,7,7,0,Kanno Sora,LFL Engineering,Hard,1:51.181,+0.138,+20.755,Running
+62,8,8,0,Jamar Henry,Trike Motorsports,Hard,1:51.265,+9.178,+29.933,Running
+62,9,10,1,Sydney Aspen,Villiuride Racing,Soft,1:49.755,+0.644,+30.577,Running
+62,10,9,-1,Al Fabet,Villiuride Racing,Hard,1:52.253,+0.552,+31.130,Running
+62,11,12,1,Eli Huertez,Pulang Kabayo Racing,Medium,1:50.511,+2.814,+33.943,Running
+62,12,11,-1,Liesje Roser,Dacia Racing Team,Medium,1:50.224,+0.050,+33.993,Running
+62,13,13,0,Mark Graham,Trike Motorsports,Medium,1:50.110,+1.628,+35.622,Running
+62,14,14,0,Monica Niculescu,Dacia Racing Team,Medium,1:51.182,+5.833,+41.455,Running
+62,15,15,0,Aida Haque,Icarus,Hard,1:53.188,+4.455,+45.910,Running
+62,16,16,0,Clara Longo,Icarus,Soft,1:57.235,+8.528,+54.438,Running
+62,17,17,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.782,+2.534,+56.972,Running
+62,18,18,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:50.495,+1.512,+12.050,Mechanical failure on lap 55
+63,1,1,0,Berend Boer,Shell Motorsports,Hard,1:52.104,-,-,Running
+63,2,2,0,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:51.620,+11.289,+11.289,Running
+63,3,3,0,Niamh Murphy,Racing Life,Medium,1:51.001,+1.167,+12.457,Running
+63,4,4,0,Ye Li,Racing Life,Medium,1:51.652,+3.853,+16.309,Running
+63,5,5,0,Franc Abel,Shell Motorsports,Soft,1:50.717,+1.820,+18.130,Running
+63,6,7,1,Kanno Sora,LFL Engineering,Hard,1:51.076,+1.597,+19.727,Running
+63,7,6,-1,Fidan Basak,Pulang Kabayo Racing,Hard,1:53.419,+2.205,+21.931,Running
+63,8,8,0,Jamar Henry,Trike Motorsports,Hard,1:49.651,+5.548,+27.479,Running
+63,9,10,1,Al Fabet,Villiuride Racing,Hard,1:50.398,+1.866,+29.345,Running
+63,10,9,-1,Sydney Aspen,Villiuride Racing,Soft,1:50.923,+0.050,+29.395,Running
+63,11,11,0,Eli Huertez,Pulang Kabayo Racing,Medium,1:51.049,+3.493,+32.888,Running
+63,12,12,0,Liesje Roser,Dacia Racing Team,Medium,1:51.613,+0.613,+33.502,Running
+63,13,13,0,Mark Graham,Trike Motorsports,Medium,1:50.302,+0.318,+33.819,Running
+63,14,14,0,Monica Niculescu,Dacia Racing Team,Medium,1:51.888,+7.419,+41.238,Running
+63,15,17,2,Aleksa Kozlov,LFL Engineering,Hard,1:51.726,+15.356,+56.594,Running
+63,16,15,-1,Aida Haque,Icarus,Soft,1:53.617,+12.828,+69.422,Running
+63,17,16,-1,Clara Longo,Icarus,Soft,1:55.922,+10.834,+80.256,Running
+63,18,18,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:50.495,+1.512,+12.050,Mechanical failure on lap 55
+64,1,1,0,Berend Boer,Shell Motorsports,Hard,1:50.885,-,-,Running
+64,2,3,1,Niamh Murphy,Racing Life,Medium,1:50.587,+12.158,+12.158,Running
+64,3,2,-1,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:52.327,+0.573,+12.732,Running
+64,4,4,0,Ye Li,Racing Life,Medium,1:50.209,+2.902,+15.633,Running
+64,5,5,0,Franc Abel,Shell Motorsports,Soft,1:49.233,+0.845,+16.478,Running
+64,6,7,1,Fidan Basak,Pulang Kabayo Racing,Hard,1:51.272,+4.822,+21.300,Running
+64,7,6,-1,Kanno Sora,LFL Engineering,Hard,1:52.508,+0.050,+21.350,Running
+64,8,8,0,Jamar Henry,Trike Motorsports,Hard,1:50.377,+5.621,+26.971,Running
+64,9,9,0,Al Fabet,Villiuride Racing,Hard,1:50.282,+1.771,+28.742,Running
+64,10,10,0,Sydney Aspen,Villiuride Racing,Soft,1:51.328,+1.096,+29.838,Running
+64,11,11,0,Eli Huertez,Pulang Kabayo Racing,Medium,1:49.451,+1.616,+31.455,Running
+64,12,12,0,Liesje Roser,Dacia Racing Team,Medium,1:51.541,+1.942,+33.397,Running
+64,13,13,0,Mark Graham,Trike Motorsports,Medium,1:50.513,+0.050,+33.447,Running
+64,14,14,0,Monica Niculescu,Dacia Racing Team,Medium,1:51.968,+8.874,+42.321,Running
+64,15,15,0,Aleksa Kozlov,LFL Engineering,Hard,1:52.010,+15.398,+57.719,Running
+64,16,16,0,Aida Haque,Icarus,Soft,1:50.185,+11.003,+68.722,Running
+64,17,17,0,Clara Longo,Icarus,Soft,1:49.955,+10.604,+79.326,Running
+64,18,18,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:50.495,+1.512,+12.050,Mechanical failure on lap 55
+65,1,1,0,Berend Boer,Shell Motorsports,Hard,1:51.584,-,-,Running
+65,2,3,1,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:50.472,+11.097,+11.097,Running
+65,3,2,-1,Niamh Murphy,Racing Life,Medium,1:50.573,+0.050,+11.147,Running
+65,4,4,0,Ye Li,Racing Life,Medium,1:52.101,+4.014,+15.160,Running
+65,5,5,0,Franc Abel,Shell Motorsports,Soft,1:50.317,+0.050,+15.210,Running
+65,6,6,0,Fidan Basak,Pulang Kabayo Racing,Hard,1:52.336,+6.256,+21.466,Running
+65,7,7,0,Kanno Sora,LFL Engineering,Hard,1:51.751,+0.050,+21.516,Running
+65,8,8,0,Jamar Henry,Trike Motorsports,Hard,1:50.035,+3.906,+25.422,Running
+65,9,10,1,Sydney Aspen,Villiuride Racing,Soft,1:50.131,+2.964,+28.385,Running
+65,10,11,1,Eli Huertez,Pulang Kabayo Racing,Medium,1:50.437,+1.024,+29.410,Running
+65,11,9,-2,Al Fabet,Villiuride Racing,Hard,1:52.302,+0.050,+29.460,Running
+65,12,12,0,Liesje Roser,Dacia Racing Team,Medium,1:50.308,+2.660,+32.120,Running
+65,13,13,0,Mark Graham,Trike Motorsports,Medium,1:50.397,+0.139,+32.259,Running
+65,14,14,0,Monica Niculescu,Dacia Racing Team,Medium,1:50.402,+8.879,+41.138,Running
+65,15,15,0,Aleksa Kozlov,LFL Engineering,Hard,1:52.096,+17.092,+58.230,Running
+65,16,16,0,Aida Haque,Icarus,Soft,1:49.486,+8.393,+66.623,Running
+65,17,17,0,Clara Longo,Icarus,Soft,1:49.685,+10.803,+77.426,Running
+65,18,18,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:50.495,+1.512,+12.050,Mechanical failure on lap 55
+66,1,1,0,Berend Boer,Shell Motorsports,Hard,1:51.409,-,-,Running
+66,2,3,1,Niamh Murphy,Racing Life,Medium,1:49.568,+9.305,+9.305,Running
+66,3,2,-1,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:53.095,+3.477,+12.782,Running
+66,4,5,1,Franc Abel,Shell Motorsports,Soft,1:49.890,+0.909,+13.691,Running
+66,5,7,2,Kanno Sora,LFL Engineering,Hard,1:52.511,+8.927,+22.618,Running
+66,6,6,0,Fidan Basak,Pulang Kabayo Racing,Hard,1:53.469,+0.907,+23.526,Running
+66,7,8,1,Jamar Henry,Trike Motorsports,Hard,1:52.405,+2.892,+26.418,Running
+66,8,9,1,Sydney Aspen,Villiuride Racing,Soft,1:50.018,+0.576,+26.994,Running
+66,9,10,1,Eli Huertez,Pulang Kabayo Racing,Medium,1:51.588,+1.453,+28.446,Running
+66,10,11,1,Al Fabet,Villiuride Racing,Hard,1:50.446,+0.050,+28.496,Running
+66,11,12,1,Liesje Roser,Dacia Racing Team,Medium,1:50.897,+3.112,+31.608,Running
+66,12,13,1,Mark Graham,Trike Motorsports,Medium,1:51.162,+0.404,+32.012,Running
+66,13,14,1,Monica Niculescu,Dacia Racing Team,Medium,1:52.346,+10.063,+42.075,Running
+66,14,15,1,Aleksa Kozlov,LFL Engineering,Hard,1:51.143,+15.890,+57.964,Running
+66,15,16,1,Aida Haque,Icarus,Soft,1:49.054,+6.304,+64.268,Running
+66,16,17,1,Clara Longo,Icarus,Soft,1:50.881,+12.630,+76.898,Running
+66,17,4,-13,Ye Li,Racing Life,Medium,1:52.101,+4.014,+15.160,Crashed on lap 66
+66,18,18,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:50.495,+1.512,+12.050,Mechanical failure on lap 55
+67,1,1,0,Berend Boer,Shell Motorsports,Hard,1:52.132,-,-,Running
+67,2,2,0,Niamh Murphy,Racing Life,Medium,1:50.777,+7.949,+7.949,Running
+67,3,4,1,Franc Abel,Shell Motorsports,Soft,1:50.316,+3.925,+11.874,Running
+67,4,3,-1,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:53.140,+1.916,+13.790,Running
+67,5,6,1,Fidan Basak,Pulang Kabayo Racing,Hard,1:51.645,+9.009,+22.799,Running
+67,6,5,-1,Kanno Sora,LFL Engineering,Hard,1:52.363,+0.050,+22.849,Running
+67,7,8,1,Sydney Aspen,Villiuride Racing,Soft,1:49.928,+1.940,+24.789,Running
+67,8,7,-1,Jamar Henry,Trike Motorsports,Hard,1:51.230,+0.726,+25.515,Running
+67,9,10,1,Al Fabet,Villiuride Racing,Hard,1:50.708,+0.520,+26.036,Running
+67,10,9,-1,Eli Huertez,Pulang Kabayo Racing,Medium,1:49.772,+0.050,+26.086,Running
+67,11,12,1,Mark Graham,Trike Motorsports,Medium,1:50.141,+3.935,+30.021,Running
+67,12,11,-1,Liesje Roser,Dacia Racing Team,Medium,1:51.026,+0.480,+30.501,Running
+67,13,13,0,Monica Niculescu,Dacia Racing Team,Medium,1:52.010,+11.450,+41.952,Running
+67,14,14,0,Aleksa Kozlov,LFL Engineering,Hard,1:52.360,+16.240,+58.191,Running
+67,15,15,0,Aida Haque,Icarus,Soft,1:50.449,+4.393,+62.584,Running
+67,16,16,0,Clara Longo,Icarus,Soft,1:51.888,+14.070,+76.654,Running
+67,17,17,0,Ye Li,Racing Life,Medium,1:52.101,+4.014,+15.160,Crashed on lap 66
+67,18,18,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:50.495,+1.512,+12.050,Mechanical failure on lap 55
+68,1,1,0,Berend Boer,Shell Motorsports,Hard,1:52.492,-,-,Running
+68,2,2,0,Niamh Murphy,Racing Life,Medium,1:52.042,+7.500,+7.500,Running
+68,3,3,0,Franc Abel,Shell Motorsports,Soft,1:51.114,+2.997,+10.497,Running
+68,4,4,0,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:51.994,+2.796,+13.293,Running
+68,5,5,0,Fidan Basak,Pulang Kabayo Racing,Hard,1:52.574,+9.491,+22.783,Running
+68,6,6,0,Kanno Sora,LFL Engineering,Hard,1:52.561,+0.049,+22.832,Running
+68,7,7,0,Sydney Aspen,Villiuride Racing,Soft,1:50.536,+0.001,+22.833,Running
+68,8,9,1,Al Fabet,Villiuride Racing,Hard,1:50.306,+1.017,+23.850,Running
+68,9,8,-1,Jamar Henry,Trike Motorsports,Hard,1:51.117,+0.291,+24.141,Running
+68,10,10,0,Eli Huertez,Pulang Kabayo Racing,Medium,1:50.571,+0.024,+24.165,Running
+68,11,11,0,Mark Graham,Trike Motorsports,Medium,1:51.163,+4.286,+28.451,Running
+68,12,12,0,Liesje Roser,Dacia Racing Team,Medium,1:50.491,+0.050,+28.501,Running
+68,13,13,0,Monica Niculescu,Dacia Racing Team,Medium,1:50.135,+11.094,+39.595,Running
+68,14,14,0,Aleksa Kozlov,LFL Engineering,Hard,1:52.936,+19.041,+58.636,Running
+68,15,15,0,Aida Haque,Icarus,Soft,1:50.241,+1.697,+60.333,Running
+68,16,16,0,Clara Longo,Icarus,Soft,1:50.364,+14.193,+74.526,Running
+68,17,17,0,Ye Li,Racing Life,Medium,1:52.101,+4.014,+15.160,Crashed on lap 66
+68,18,18,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:50.495,+1.512,+12.050,Mechanical failure on lap 55
+69,1,1,0,Berend Boer,Shell Motorsports,Hard,1:52.098,-,-,Running
+69,2,2,0,Niamh Murphy,Racing Life,Medium,1:50.443,+5.845,+5.845,Running
+69,3,3,0,Franc Abel,Shell Motorsports,Soft,1:51.262,+3.816,+9.661,Running
+69,4,4,0,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:52.980,+4.514,+14.174,Running
+69,5,7,2,Sydney Aspen,Villiuride Racing,Soft,1:50.325,+6.886,+21.060,Running
+69,6,5,-1,Fidan Basak,Pulang Kabayo Racing,Hard,1:51.507,+1.132,+22.192,Running
+69,7,10,3,Eli Huertez,Pulang Kabayo Racing,Medium,1:50.642,+0.318,+22.510,Running
+69,8,9,1,Jamar Henry,Trike Motorsports,Hard,1:50.517,+0.050,+22.560,Running
+69,9,8,-1,Al Fabet,Villiuride Racing,Hard,1:51.526,+0.099,+22.659,Running
+69,10,6,-4,Kanno Sora,LFL Engineering,Hard,1:52.932,+1.007,+23.665,Running
+69,11,11,0,Mark Graham,Trike Motorsports,Medium,1:50.637,+3.325,+26.990,Running
+69,12,12,0,Liesje Roser,Dacia Racing Team,Medium,1:52.338,+1.751,+28.741,Running
+69,13,13,0,Monica Niculescu,Dacia Racing Team,Medium,1:51.056,+9.812,+38.553,Running
+69,14,14,0,Aleksa Kozlov,LFL Engineering,Hard,1:51.434,+19.418,+57.971,Running
+69,15,15,0,Aida Haque,Icarus,Soft,1:50.847,+1.111,+59.082,Running
+69,16,16,0,Clara Longo,Icarus,Soft,1:51.630,+14.976,+74.058,Running
+69,17,17,0,Ye Li,Racing Life,Medium,1:52.101,+4.014,+15.160,Crashed on lap 66
+69,18,18,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:50.495,+1.512,+12.050,Mechanical failure on lap 55
+70,1,1,0,Berend Boer,Shell Motorsports,Hard,1:52.672,-,-,Running
+70,2,2,0,Niamh Murphy,Racing Life,Medium,1:51.982,+5.155,+5.155,Running
+70,3,3,0,Franc Abel,Shell Motorsports,Soft,1:50.996,+2.829,+7.984,Running
+70,4,4,0,Damien Quibuyen,Mercedes AMG Motorsport,Hard,1:51.350,+4.868,+12.852,Running
+70,5,5,0,Sydney Aspen,Villiuride Racing,Soft,1:50.558,+6.094,+18.946,Running
+70,6,7,1,Eli Huertez,Pulang Kabayo Racing,Medium,1:51.262,+2.153,+21.100,Running
+70,7,6,-1,Fidan Basak,Pulang Kabayo Racing,Hard,1:53.035,+1.177,+22.277,Running
+70,8,9,1,Al Fabet,Villiuride Racing,Hard,1:52.319,+0.029,+22.305,Running
+70,9,8,-1,Jamar Henry,Trike Motorsports,Hard,1:52.439,+0.021,+22.327,Running
+70,10,11,1,Mark Graham,Trike Motorsports,Medium,1:50.428,+2.419,+24.746,Running
+70,11,10,-1,Kanno Sora,LFL Engineering,Hard,1:54.309,+0.556,+25.302,Running
+70,12,12,0,Liesje Roser,Dacia Racing Team,Medium,1:50.341,+1.107,+26.410,Running
+70,13,13,0,Monica Niculescu,Dacia Racing Team,Medium,1:51.314,+10.785,+37.195,Running
+70,14,15,1,Aida Haque,Icarus,Soft,1:51.191,+20.207,+57.402,Running
+70,15,14,-1,Aleksa Kozlov,LFL Engineering,Hard,1:52.153,+0.050,+57.452,Running
+70,16,16,0,Clara Longo,Icarus,Soft,1:51.592,+15.527,+72.979,Running
+70,17,17,0,Ye Li,Racing Life,Medium,1:52.101,+4.014,+15.160,Crashed on lap 66
+70,18,18,0,Ananda Chohan,Mercedes AMG Motorsport,Hard,1:50.495,+1.512,+12.050,Mechanical failure on lap 55
